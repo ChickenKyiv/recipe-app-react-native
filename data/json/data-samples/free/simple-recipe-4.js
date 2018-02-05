@@ -4,57 +4,57 @@ module.exports = {
 
     "title": "Basic Fruit Salad",
     "yields" : {
-        "servings": "6"
+      "servings": "6"
     },
     "ingredients": [
-        {
-            "name" : "apple",
-            "amounts" : {
-                "amount" : "1",
-                "unit"   : "each",
-                "quantity": 0.333333333333333, 
-                "displayQuantity": "1/3", 
-                "metricQuantity": 59, 
-                "metricDisplayQuantity": "59", 
-                "metricUnit": "ml", 
-            }
-        },
-        {
-            "name" : "banana",
-            "amounts" : {
-                "amount" : "1",
-                "unit"   : "each",
-                "quantity": 0.333333333333333, 
-                "displayQuantity": "1/3", 
-                "metricQuantity": 59, 
-                "metricDisplayQuantity": "59", 
-                "metricUnit": "ml", 
-            }
-        },
-        {
-            "name" : "orange",
-            "amounts" : {
-                "amount" : "1",
-                "unit"   : "each",
-                "quantity": 0.333333333333333, 
-                "displayQuantity": "1/3", 
-                "metricQuantity": 59, 
-                "metricDisplayQuantity": "59", 
-                "metricUnit": "ml", 
-            }
-        },
-        {
-            "name" : "grapes",
-            "amounts" : {
-                "amount" : "10",
-                "unit"   : "cup",
-                "quantity": 0.333333333333333, 
-                "displayQuantity": "1/3", 
-                "metricQuantity": 59, 
-                "metricDisplayQuantity": "59", 
-                "metricUnit": "ml", 
-            }
-        },
+    {
+      "name" : "apple",
+      "amounts" : {
+          "amount" : "1",
+          "unit"   : "each",
+          "quantity": 0.333333333333333,
+          "displayQuantity": "1/3",
+          "metricQuantity": 59,
+          "metricDisplayQuantity": "59",
+          "metricUnit": "ml",
+      }
+    },
+    {
+        "name" : "banana",
+        "amounts" : {
+            "amount" : "1",
+            "unit"   : "each",
+            "quantity": 0.333333333333333,
+            "displayQuantity": "1/3",
+            "metricQuantity": 59,
+            "metricDisplayQuantity": "59",
+            "metricUnit": "ml",
+        }
+    },
+    {
+        "name" : "orange",
+        "amounts" : {
+            "amount" : "1",
+            "unit"   : "each",
+            "quantity": 0.333333333333333,
+            "displayQuantity": "1/3",
+            "metricQuantity": 59,
+            "metricDisplayQuantity": "59",
+            "metricUnit": "ml",
+        }
+    },
+    {
+        "name" : "grapes",
+        "amounts" : {
+            "amount" : "10",
+            "unit"   : "cup",
+            "quantity": 0.333333333333333,
+            "displayQuantity": "1/3",
+            "metricQuantity": 59,
+            "metricDisplayQuantity": "59",
+            "metricUnit": "ml",
+        }
+    },
     ],
     "directions": [
 
@@ -85,14 +85,14 @@ module.exports = {
                 "",
                 ""
             ]
-        },        
+        },
         {
             "step"  : "Mix to combine",
             "notes" : [
                 "",
                 ""
             ]
-        },              
+        },
 
     ],
     "notes" : [
