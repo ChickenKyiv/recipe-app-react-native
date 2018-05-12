@@ -1,11 +1,10 @@
-we must update it to our porject.
+we must update it to our project.
 just stealed from other repository
 
 Install important stuff:
 From within the root directory:
 
 1. npm install in /
-2. npm install in /mobile
 
 
 
