@@ -5,3 +5,10 @@ import {
 } from 'react-native';
 
 import React from 'react';
+
+
+const Directions = (props) => {
+  return ();
+};
+
+export default Directions;
