@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 
 import React from 'react';
-import data from '../../data/json-db-sample/'
+import data  from '../../data/json-db-sample/'
 
 const FreeRecipes = (props) => {
 
@@ -14,7 +14,7 @@ const FreeRecipes = (props) => {
       <Title>
         Free Recipes
       </Title>
-      
+
       {/* this is a loop */}
       <Item link="/">
         Pork Tenderloin with Roasted Cherries
