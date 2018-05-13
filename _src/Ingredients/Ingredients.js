@@ -6,9 +6,12 @@ import {
 
 import React from 'react';
 
+import data from '../../data/json-db-sample/'
 
 const Ingredients = (props) => {
-  return ();
+  return (
+
+  );
 };
 
 export default Ingredients;

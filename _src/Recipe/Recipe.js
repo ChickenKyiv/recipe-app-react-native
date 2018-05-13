@@ -5,10 +5,12 @@ import {
 } from 'react-native';
 
 import React from 'react';
-
+import data from '../../data/json-db-sample/'
 
 const Recipe = (props) => {
-  return ();
+  return (
+
+  );
 };
 
 export default Recipe;

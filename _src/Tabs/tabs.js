@@ -8,7 +8,9 @@ import React from 'react';
 
 
 const Tabs = (props) => {
-  return ();
+  return (
+    
+  );
 };
 
 export default Tabs;
