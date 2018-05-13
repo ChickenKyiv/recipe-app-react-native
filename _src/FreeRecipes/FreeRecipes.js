@@ -8,12 +8,14 @@ import React from 'react';
 import data from '../../data/json-db-sample/'
 
 const FreeRecipes = (props) => {
-  
+
   return (
     <List>
       <Title>
         Free Recipes
       </Title>
+      
+      {/* this is a loop */}
       <Item link="/">
         Pork Tenderloin with Roasted Cherries
       </Item>

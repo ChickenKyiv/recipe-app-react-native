@@ -1,0 +1,79 @@
+<ion-view title="Single Recipe" id="recipe" ng-repeat="recipe in recipes">
+    <ion-content padding="true" class="has-header">
+        <ion-item>
+            <h2 id="singleRecipe-heading2" style="color:#000000;">
+
+                 {{ recipe.name }}
+            </h2>
+
+            <hr />
+
+            <div id="singleRecipe-markdown2" style="color:#000000;">
+                <p>
+                    This sauce is, in one word, awesome!!
+                </p>
+            </div>
+        </ion-item>
+
+        <div>
+            <img src="{{ recipe.imageURL }}" width="100%" height="auto"
+                 style="display: block; margin: 10px auto; max-width: 500px;">
+        </div>
+
+
+        <ion-item class="item-icon-left assertive" id="styledSingleRecipe-list-item20">
+                <i class="icon ion-android-time"></i>
+                Timing
+        </ion-item>
+
+        <ion-item id="styledSingleRecipe-list-item30">
+            Preparation Time
+            {{ recipe.meta.prepTime }}
+        </ion-item>
+
+        <ion-item id="styledSingleRecipe-list-item31">
+            Cook Time
+            {{ recipe.meta.totalTime }}
+        </ion-item>
+
+        <ion-item>
+            <h4 id="singleRecipe-heading3" style="color:#000000;">
+                Ingredients
+            </h4>
+            <div id="singleRecipe-markdown4" style="color:#000000;">
+
+                <ul ng-repeat="ingredient in recipe.ingredients">
+
+                    <li>
+                        {{ ingredient.quantity }}
+                        {{ ingredient.name }} -
+                        {{ ingredient.type }}
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+        </ion-item>
+
+        <ion-item>
+            <div id="directions">
+                 <h4 id="singleRecipe-heading3" style="color:#000000;">
+                    Directions
+                </h4>
+
+                <ul ng-repeat="step in recipe.steps">
+
+                    <li>
+                        {{ step }}
+                    </li>
+
+                </ul>
+
+            </div>
+        </ion-item>
+
+
+    </ion-content>
+</ion-view>

@@ -9,7 +9,10 @@ import data from '../../data/json-db-sample/'
 
 const GroceryListSettings = (props) => {
   return (
+    <SettingsForm>
+      <Title text="Grocery List Settings" />
 
+    </SettingsForm>
   );
 };
 

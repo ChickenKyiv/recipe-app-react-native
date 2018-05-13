@@ -1,0 +1,144 @@
+<ion-view title="Intro" id="intro">
+
+
+<!--    <ion-content padding="true"
+                 class="has-header">
+        -->
+
+        <ion-nav-buttons side="left">
+          <button class="button button-positive button-clear no-animation"
+                  ng-click="startApp()" ng-show="!slideIndex">
+            Skip Intro
+          </button>
+          <button class="button button-positive button-clear no-animation"
+                  ng-click="previous()" ng-show="slideIndex > 0">
+            Previous Slide
+          </button>
+        </ion-nav-buttons>
+
+         <ion-nav-buttons side="right">
+          <button class="button button-positive button-clear no-animation"
+                  ng-click="next()" ng-show="slideIndex != 2">
+            Next
+          </button>
+          <button class="button button-positive button-clear no-animation"
+                  ng-click="startApp()" ng-show="slideIndex == 2">
+            Start using MyApp
+          </button>
+        </ion-nav-buttons>
+
+
+        <ion-slide-box on-slide-changed="slideChanged(index)">
+            <ion-slide>
+                 <div class="list card">
+
+                <div class="item item-divider">
+                    Weekly Menu
+                </div>
+<!--                <div class="item item-avatar">
+                   <img src="http://tutorialsplane.com/runtest/ionic/img/profile.jpg">
+                   <h2>John Doe</h2>
+                   <p>This is John From Australia...</p>
+                 </div>-->
+
+                 <div class="item item-image">
+                   <img src="http://tutorialsplane.com/runtest/ionic/img/cover.jpg">
+                    <!--<img src="http://code.ionicframework.com/assets/img/app_icon.png">-->
+                 </div>
+                <div class="item item-body">
+                    <h1>Explore</h1>
+                    <p>Bla bla awesome recipes inside</p>
+                      <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget pharetra tortor. Proin quis eros imperdiet, facilisis nisi in, tincidunt orci. Nam tristique elit massa, quis faucibus augue finibus ac.-->
+                </div>
+
+               </div>
+            </ion-slide>
+
+
+          <ion-slide>
+
+
+
+
+            <h3>Thank you for choosing the Awesome App!</h3>
+            <div id="logo">
+              <img src="http://code.ionicframework.com/assets/img/app_icon.png">
+            </div>
+            <p>
+              We've worked super hard to make you happy.
+            </p>
+            <p>
+              But if you are angry, too bad.
+            </p>
+
+
+          </ion-slide>
+
+          <ion-slide>
+            <h3>Weekly Menu</h3>
+
+            <div id="list">
+              <h5>Just three steps:</h5>
+              <ol>
+                <li>Be awesome</li>
+                <li>Stay awesome</li>
+                <li>There is no step 3</li>
+              </ol>
+            </div>
+          </ion-slide>
+
+          <ion-slide>
+
+            <h3>Grocery List</h3>
+            <p>
+              So cool
+            </p>
+          </ion-slide>
+          <ion-slide>
+
+            <h3>Recipe Calendar</h3>
+            <p>
+              So cool
+            </p>
+          </ion-slide>
+
+        </ion-slide-box>
+
+
+        <!-- @TODO add prev next buttons to the bottom -->
+
+
+<!--
+        <h1 id="login-heading4" style="color:#BB3737;text-align:center;">
+            Plan It Dinner
+            Welcome back!
+        </h1>-->
+
+<!--        <form id="login-form1" class="list">
+            <div class="spacer" style="width: 300px; height: 44px;"></div>
+            <ion-list id="login-list3">
+                <label class="item item-input" id="login-input1">
+                    <span class="input-label">Username</span>
+                    <input type="text" placeholder="">
+                </label>
+                <label class="item item-input" id="login-input2">
+                    <span class="input-label">Password</span>
+                    <input type="password" placeholder="">
+                </label>
+            </ion-list>
+            <div class="spacer" style="width: 300px; height: 89px;"></div>
+            <button id="login-button2" class="button button-royal  button-block">
+                Log in
+            </button>
+        </form>
+
+        <a href="#" onclick="window.open('/signup', '_system', 'location=yes'); return false;"
+           id="login-button3"
+           style="border-radius:55px 55px 55px 55px;"
+           class="button button-light  button-block button-clear">
+            Or create an account
+        </a>-->
+
+
+    </ion-content>
+</ion-view>

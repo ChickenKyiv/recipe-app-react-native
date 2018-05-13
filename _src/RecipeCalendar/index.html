@@ -1,0 +1,40 @@
+<ion-view title="Recipes Calendar" id="page15">
+    <ion-content padding="true" class="has-header">
+
+        <ion-list id="recipesCalendar-list14" ng-repeat="item in days" >
+
+
+            <ion-item class="item-icon-left" id="recipesCalendar-list-item60">
+                <i class="icon ion-ios-nutrition-outline"></i>
+                {{ item.day }}
+            </ion-item>
+
+            <div class="item item-body" id="recipesCalendar-list-item-container27" ng-repeat="recipe in info" >
+
+                <div id="recipesCalendar-markdown28" style="margin-top:0px;color:#000000;">
+                    <p>
+                        <!--Pork Tenderloin with Roasted Cherries-->
+                        {{ recipe.title }}
+
+                        {{ recipe.letter }}
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </ion-list>
+
+
+
+
+
+    </ion-content>
+</ion-view>
