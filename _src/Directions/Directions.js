@@ -5,13 +5,14 @@ import {
 } from 'react-native';
 
 import React from 'react';
-import data from '../../data/json-db-sample/'
+import data  from '../../data/json-db-sample/'
 
 const Directions = (props) => {
   return (
     <Directions>
       <Title value="Directions" />
       <List>
+      {/* this is a loop */}
         <Item index="1">
           Preheat oven to 425 degrees.
         </Item>
