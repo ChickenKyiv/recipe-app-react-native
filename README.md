@@ -1,5 +1,9 @@
 # recipe-app-react-native
 
+Some details was structured and published on Medium:
+https://medium.com/quick-code/if-you-have-recipe-based-website-and-want-to-have-an-application-too-5da1a17737d8
+https://medium.com/quick-code/how-i-plan-to-get-from-app-idea-into-working-prototype-food-tech-92f1fdcc432a
+
 
 ## Recipe App React Native
 
