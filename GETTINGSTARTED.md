@@ -1,5 +1,5 @@
 we must update it to our project.
-just stealed from other repository
+just steal-ed from other repository
 
 Install important stuff:
 From within the root directory:
