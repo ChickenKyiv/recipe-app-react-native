@@ -7,6 +7,17 @@ import {
 import React from 'react';
 import data  from '../../data/json-db-sample/'
 
+const items = [];
+for (let i=0; i < data.recipe[0].directions.length; i++){
+  items.push(
+    <Category index={i} id="{category.id}" link="{grocery.id}/{category.id}">
+      {data.recipe[0].directions[i]}
+      <Icon src="arrow" />
+      {category.name}
+    </Item>
+  );
+}
+
 const GroceryList = (props) => {
   return (
 
@@ -17,6 +28,7 @@ const GroceryList = (props) => {
       </Title>
       <List>
         {/* this is a loop */}
+        {items}
         <Category id="{category.id}" link="{grocery.id}/{category.id}">
           <Icon src="arrow" />
           {category.name}

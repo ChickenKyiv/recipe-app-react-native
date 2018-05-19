@@ -7,6 +7,18 @@ import {
 import React from 'react';
 import data  from '../../data/json-db-sample/'
 
+const items = [];
+for (let i=0; i < data.recipe[0].directions.length; i++){
+  items.push(
+    <Item index={i} title={data.recipes[i].title}>
+      <Servings recipe-id="{recipe.id}" grocery-id="{grocery.id}">
+      {/* it's a select with numbers 1-4*/}
+      </Servings>
+      <Toggle>Disable Recipe</Toggle>
+    </Item>
+  );
+}
+
 const GroceryListSettings = (props) => {
   return (
     <SettingsForm>
@@ -17,6 +29,7 @@ const GroceryListSettings = (props) => {
       <List>
 
         {/* this is a loop */}
+        {items}
         <Item title="Pork Tenderloin with Roasted Cherries">
           <Servings recipe-id="{recipe.id}" grocery-id="{grocery.id}">
           {/* it's a select with numbers 1-4*/}
