@@ -1,9 +1,30 @@
 # React Native Recipe App
 
 Some details was structured and published on Medium:
-https://medium.com/quick-code/if-you-have-recipe-based-website-and-want-to-have-an-application-too-5da1a17737d8
-https://medium.com/quick-code/how-i-plan-to-get-from-app-idea-into-working-prototype-food-tech-92f1fdcc432a
+- https://medium.com/quick-code/if-you-have-recipe-based-website-and-want-to-have-an-application-too-5da1a17737d8
+- https://medium.com/quick-code/how-i-plan-to-get-from-app-idea-into-working-prototype-food-tech-92f1fdcc432a
 
+
+
+
+## Table of Contents
+
+* [Updating to New Releases](#updating-to-new-releases)
+* [Release 2 -  Authentication](#)
+
+## Updating to New Releases
+
+
+## Release 2 -  Authentication
+
+- Facebook login button first version
+- Auth with tokens can be handled with help of our Recipe API.
+
+## Release 3 - Payments
+
+- Connect Paddle.js, enable recurring payments.
+- In-app purchases
+- Enable Recurly is a next priority thing
 
 ## Recipe App React Native
 
@@ -16,16 +37,16 @@ https://medium.com/quick-code/how-i-plan-to-get-from-app-idea-into-working-proto
 
 
 
-Data can be stored as JSON or call server from option#3
-For UI we will use some creative and free ui template — react based
+- Data can be stored as JSON or call server from option#3
+- For UI we will use some creative and free ui template — react based
 
 
 Basic functionality:
 
-Screen with recipes list
-Recipe details
-Basic grocery list
-Login screen.
+- Screen with recipes list
+- Recipe details
+- Basic grocery list
+- Login screen.
 
 
 
