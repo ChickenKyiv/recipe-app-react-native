@@ -50,17 +50,17 @@ Basic functionality:
 
 
 
-Shopmate keeps track of items for a grocery shopping list. Each added item is displayed in the main user page. If items are favorited, they will be displayed under the favorites page.
-Items displayed on users board, can be clicked to open a show page for more information or be edited if necessary.
-This application features authentication of a user after registration and login. User will only see the navigation bar if currently in session.
+[comment]: <> Shopmate keeps track of items for a grocery shopping list. Each added item is displayed in the main user page. If items are favorited, they will be displayed under the favorites page.
+[comment]: <> Items displayed on users board, can be clicked to open a show page for more information or be edited if necessary.
+[comment]: <> This application features authentication of a user after registration and login. User will only see the navigation bar if currently in session.
 
 ## Build with
 - React Native
 
 
-## Original Wireframe
+##  Wireframes from Ionic app development
 
-[Wireframe File] (https://google.com)
+[comment]: <> [Wireframe File] (https://google.com)
 
 #### styled recipe screen
 ![styled recipe screen](https://github.com/ChickenKyiv/creative/blob/master/app/1_slfggOuPcZ10E0xm2MZKfw.png)
