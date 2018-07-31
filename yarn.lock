@@ -622,9 +622,9 @@
     pouchdb-collections "^1.0.1"
     tiny-queue "^0.2.1"
 
-"@groceristar/groceristar-fetch@^1.1.14":
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.14.tgz#a3a512f967fa6eb3942a9d53f98c781396ca8667"
+"@groceristar/groceristar-fetch@^1.1.15":
+  version "1.1.15"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.15.tgz#41818f7bb41e9da0ded762aefcaeeea6344df135"
   dependencies:
     fs "0.0.1-security"
     underscore "^1.9.1"
