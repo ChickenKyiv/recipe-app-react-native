@@ -34,9 +34,6 @@ Some details was structured and published on Medium:
 ## App Overview
 
 
-
-
-
 - Data can be stored as JSON or call server from option#3
 - For UI we will use some creative and free ui template — react based
 
