@@ -1,38 +1,46 @@
 import React, {Component} from 'react';
-import {View, Text, SectionList} from 'react-native';
+import {View} from 'react-native';
 import {List, ListItem} from "react-native-elements";
-import directions from "../../assets/data/directions";
-import Collapsible from 'react-native-collapsible';
-import Accordion from 'react-native-collapsible/Accordion';
 import GroceryListItem from './GroceryListItem';
 
-import styles from './styles';
+import styles, {titleStyles} from './styles';
+
+const listItem = [
+  {
+    id : 1,
+    name: 'Beverages',
+  },
+  {
+    id : 2,
+    name: 'Diary',
+  },
+  {
+    id : 3,
+    name: 'DRY GOODS',
+  }
+];
 
 class GroceryList extends Component {
   render() {
     return(
       <View style={styles.container}>
         <View style={styles.row}>
-
           <List containerStyle={styles.listContainerStyle}>
             <ListItem
-              key={'asd'}
-              title={'LunVjp'}
-              leftIcon={{ name: 'flight-takeoff' }}
+              key={'0'}
+              title='Recipes Calendar'
+              titleStyle={titleStyles.titleStyle}
+              leftIcon={titleStyles.leftIcon}
               hideChevron={true}
+              containerStyle={styles.listItemContainerStyle}
             />
-            <GroceryListItem/>
-            {/*{*/}
-              {/*directions[0].directions.map((item,index) => (*/}
-                {/*<ListItem*/}
-                  {/*index={index}*/}
-                  {/*key={index}*/}
-                  {/*title={(index + 1) + '. ' + item}*/}
-                  {/*containerStyle={styles.listItemContainerStyle}*/}
-                  {/*hideChevron={true}*/}
-                {/*/>*/}
-              {/*))*/}
-            {/*}*/}
+            {
+              listItem.map((item, index) => (
+                <GroceryListItem name={item.name}
+                                 key={index}
+                />
+              ))
+            }
           </List>
         </View>
       </View>
