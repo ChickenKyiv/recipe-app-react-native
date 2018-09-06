@@ -9,8 +9,7 @@ const styles = StyleSheet.create({
     padding : 10
   },
   listContainerStyle : {
-    marginTop : 0,
-    borderColor : '#cbd2d9'
+    marginTop : 0
   },
   listItemContainerStyle : {
     borderLeftWidth : 1,
@@ -18,5 +17,20 @@ const styles = StyleSheet.create({
     borderColor : '#cbd2d9'
   }
 });
+
+export const titleStyles = {
+  titleStyle : {
+    color : 'red',
+    // fontSize : 30
+  },
+  leftIcon : {
+    type: 'entypo', color :'red', name: 'calendar',
+    style : {
+      paddingLeft : 5,
+      paddingRight : 5
+    },
+    size : 30
+  }
+};
 
 export default styles;
