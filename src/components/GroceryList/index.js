@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 import {View} from 'react-native';
 import {List, ListItem} from "react-native-elements";
+import { Entypo } from '@expo/vector-icons';
+
+
 import GroceryListItem from './GroceryListItem';
+
 
 import styles, {titleStyles} from './styles';
 
@@ -30,7 +34,7 @@ class GroceryList extends Component {
               key={'0'}
               title='Recipes Calendar'
               titleStyle={titleStyles.titleStyle}
-              leftIcon={titleStyles.leftIcon}
+              leftIcon={<Entypo color ='red' name= 'calendar' style={titleStyles.leftIcon} />}
               hideChevron={true}
               containerStyle={styles.listItemContainerStyle}
             />

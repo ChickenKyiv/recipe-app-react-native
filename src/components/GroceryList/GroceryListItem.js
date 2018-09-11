@@ -2,18 +2,17 @@ import React, {Component} from "react";
 import {StyleSheet, Text, TouchableOpacity, View} from "react-native";
 import {ListItem} from 'react-native-elements';
 import Collapsible from "react-native-collapsible";
+import { Ionicons } from '@expo/vector-icons';
 
 import {titleStyles} from './styles';
 
 
 class GroceryListItem extends Component {
-  constructor() {
-    super();
-    this.state = {
+
+    state = {
       collapsed: true
     };
-    this.toggleExpanded = this.toggleExpanded.bind(this);
-  }
+
 
   toggleExpanded = () => {
     this.setState({
@@ -28,7 +27,7 @@ class GroceryListItem extends Component {
         <ListItem hideChevron={true}
                   title={this.props.name}
                   containerStyle={styles.listItemContainerStyle}
-                  leftIcon={listItemStyles.leftIcon}
+                  leftIcon={<Ionicons style={listItemStyles.leftIcon} name= 'ios-arrow-down' color= '#808080'/>}
                   onPress={this.toggleExpanded}
         />
         <Collapsible collapsed={this.state.collapsed} align="center">
@@ -47,16 +46,12 @@ class GroceryListItem extends Component {
 export default GroceryListItem;
 
 const listItemStyles = {
-  leftIcon: {
-    type: 'ionicon',
-    color: '#808080',
-    name: 'ios-arrow-down',
-    style: {
-      paddingLeft: 7,
-      paddingRight: 5
-    },
+    leftIcon: {
+    margin: 5,
+    paddingLeft: 7,
+    paddingRight: 5,
     backgroundColor: 'red',
-    size: 40
+    fontSize: 40
   }
 };
 
