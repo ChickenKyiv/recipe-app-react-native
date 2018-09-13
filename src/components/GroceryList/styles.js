@@ -24,12 +24,10 @@ export const titleStyles = {
     // fontSize : 30
   },
   leftIcon : {
-    type: 'entypo', color :'red', name: 'calendar',
-    style : {
-      paddingLeft : 5,
-      paddingRight : 5
-    },
-    size : 30
+    margin: 5,
+    paddingLeft : 5,
+    paddingRight : 5,
+    fontSize : 30
   }
 };
 

@@ -71,4 +71,3 @@ import {View} from "react-native";
 }
 </List>
 
-
