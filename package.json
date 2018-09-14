@@ -6,7 +6,7 @@
     "jest": "^23.6.0",
     "jest-expo": "~30.0.0",
     "react-native-scripts": "1.14.0",
-    "react-test-renderer": "^16.5.0"
+    "react-test-renderer": "^16.5.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
