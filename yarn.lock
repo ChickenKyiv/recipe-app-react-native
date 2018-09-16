@@ -3255,19 +3255,19 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-ads-admob@^1.0.0:
+expo-ads-admob@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-ads-admob/-/expo-ads-admob-1.0.0.tgz#4debb00d90a584d06124a6de7fd8e89fef5385f5"
   dependencies:
     prop-types "^15.6.2"
 
-expo-analytics-segment@^1.0.0:
+expo-analytics-segment@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-analytics-segment/-/expo-analytics-segment-1.0.0.tgz#d5d46cf276c94f69e39a5251e8b424d64f661a37"
   dependencies:
     expo-core "~1.1.0"
 
-expo-asset@^1.1.0:
+expo-asset@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-1.1.0.tgz#f5b182fe553076ae6a0ab504f195f13287d65081"
   dependencies:
@@ -3279,7 +3279,7 @@ expo-barcode-scanner-interface@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-barcode-scanner-interface/-/expo-barcode-scanner-interface-1.0.0.tgz#3b61227c8ee131871ab6d6a199384caad8f90510"
 
-expo-barcode-scanner@^1.0.0:
+expo-barcode-scanner@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-barcode-scanner/-/expo-barcode-scanner-1.0.0.tgz#fa59a67b34b2179c565246ac61c4de5e0d20b050"
   dependencies:
@@ -3293,7 +3293,7 @@ expo-camera-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-camera@^1.1.0:
+expo-camera@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-1.1.0.tgz#a4895cabace9ed600b268e634b1efe746e24e047"
   dependencies:
@@ -3312,21 +3312,21 @@ expo-constants-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-constants@^1.0.2:
+expo-constants@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-1.0.2.tgz#2b9f96bb26d5d20df60368a66c5a5f237c9659f3"
   dependencies:
     expo-constants-interface "~1.0.2"
     expo-core "~1.1.0"
 
-expo-contacts@^1.0.0:
+expo-contacts@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-contacts/-/expo-contacts-1.0.0.tgz#07510f3d62c8ffa90c8161884b872f816e1ab42a"
   dependencies:
     expo-core "~1.1.0"
     uuid-js "^0.7.5"
 
-expo-core@^1.1.0, expo-core@~1.1.0:
+expo-core@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-core/-/expo-core-1.1.0.tgz#c6c81282cc33b7de3913e5c3e46462b8e8f733ec"
 
@@ -3336,7 +3336,7 @@ expo-face-detector-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-face-detector@^1.0.2:
+expo-face-detector@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-face-detector/-/expo-face-detector-1.0.2.tgz#8133e422d98f515e058c82f1eff3433d040aab35"
   dependencies:
@@ -3350,7 +3350,7 @@ expo-file-system-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-file-system@^1.0.2:
+expo-file-system@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-1.0.2.tgz#5e101296edd21b2dc9afa9ff1fe981ea3905ccb8"
   dependencies:
@@ -3364,7 +3364,7 @@ expo-font-interface@~1.0.0:
   dependencies:
     expo-core "~1.1.0"
 
-expo-font@^1.0.0:
+expo-font@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-1.0.0.tgz#853a78820a857c1979d26a6414589b1bfe275a31"
   dependencies:
@@ -3378,7 +3378,7 @@ expo-gl-cpp@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-gl@^1.0.2:
+expo-gl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-1.0.2.tgz#730811ab43b25ec68a8ebee036292589238342e0"
   dependencies:
@@ -3387,27 +3387,33 @@ expo-gl@^1.0.2:
     expo-file-system-interface "~1.0.2"
     expo-gl-cpp "~1.0.2"
 
-expo-local-authentication@^1.0.0:
+expo-image-loader-interface@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/expo-image-loader-interface/-/expo-image-loader-interface-1.0.0.tgz#77249526b81acc85116bfc36200d1accefb3f6d2"
+  dependencies:
+    expo-core "~1.1.0"
+
+expo-local-authentication@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-local-authentication/-/expo-local-authentication-1.0.0.tgz#c21d2cbe2d25bab5cdd05e6d38a41f9ba0615eeb"
   dependencies:
     expo-core "~1.1.0"
     invariant "^2.2.4"
 
-expo-location@^1.0.0:
+expo-location@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-location/-/expo-location-1.0.0.tgz#98dab207fab7a8834abd1916df4f8534b4eccb02"
   dependencies:
     invariant "^2.2.4"
 
-expo-media-library@^1.0.0:
+expo-media-library@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-1.0.0.tgz#af2b0c5b624e28541856e524ec876a014cd055c7"
   dependencies:
     expo-core "~1.1.0"
     expo-permissions-interface "~1.1.0"
 
-expo-payments-stripe@^1.0.0:
+expo-payments-stripe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-payments-stripe/-/expo-payments-stripe-1.0.0.tgz#3ef1f00154c6a065cdcf25dc8c43ad8c59ad9cf0"
   dependencies:
@@ -3419,25 +3425,26 @@ expo-permissions-interface@~1.1.0:
   dependencies:
     expo-core "~1.1.0"
 
-expo-permissions@^1.1.0:
+expo-permissions@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-1.1.0.tgz#45dbeea680c1065d13aa451a41ab3af46fd34e67"
   dependencies:
     expo-core "~1.1.0"
     expo-permissions-interface "~1.1.0"
 
-expo-print@^1.0.0:
+expo-print@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-print/-/expo-print-1.0.0.tgz#dacc797614c5062d003dc29cc4da67d661ed3f9f"
   dependencies:
     babel-preset-expo "^4.0.0"
     expo-core "~1.1.0"
 
-expo-react-native-adapter@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/expo-react-native-adapter/-/expo-react-native-adapter-1.1.0.tgz#7efb07f0f2e58257bd12ba49245342f483234eff"
+expo-react-native-adapter@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/expo-react-native-adapter/-/expo-react-native-adapter-1.1.1.tgz#a8a4bcd8d17323924aac991ac727e9bcab9da6e1"
   dependencies:
     expo-core "~1.1.0"
+    expo-image-loader-interface "~1.0.0"
     expo-permissions-interface "~1.1.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
@@ -3449,7 +3456,7 @@ expo-sensors-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-sensors@^1.0.2:
+expo-sensors@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-sensors/-/expo-sensors-1.0.2.tgz#bdfe10ab0b25c64cc1c40bdf6cd3f0899f07c860"
   dependencies:
@@ -3457,41 +3464,41 @@ expo-sensors@^1.0.2:
     expo-sensors-interface "~1.0.2"
     invariant "^2.2.4"
 
-expo-sms@^1.0.2:
+expo-sms@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-sms/-/expo-sms-1.0.2.tgz#9856b4fbd2c6c62de14a5a3213c1d67aad46d72d"
   dependencies:
     expo-core "~1.1.0"
     expo-permissions-interface "~1.1.0"
 
-expo@^30.0.0:
-  version "30.0.0"
-  resolved "https://registry.yarnpkg.com/expo/-/expo-30.0.0.tgz#a54d556cff10119807ed4f435dedca2b2e795791"
+expo@^30.0.1:
+  version "30.0.1"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-30.0.1.tgz#2fae2d20b2f71d90e9533030d3671f70d4a18814"
   dependencies:
     "@expo/vector-icons" "^6.3.1"
     "@expo/websql" "^1.0.1"
     babel-preset-expo "^4.0.0"
-    expo-ads-admob "^1.0.0"
-    expo-analytics-segment "^1.0.0"
-    expo-asset "^1.1.0"
-    expo-barcode-scanner "^1.0.0"
-    expo-camera "^1.1.0"
-    expo-constants "^1.0.2"
-    expo-contacts "^1.0.0"
-    expo-core "^1.1.0"
-    expo-face-detector "^1.0.2"
-    expo-file-system "^1.0.2"
-    expo-font "^1.0.0"
-    expo-gl "^1.0.2"
-    expo-local-authentication "^1.0.0"
-    expo-location "^1.0.0"
-    expo-media-library "^1.0.0"
-    expo-payments-stripe "^1.0.0"
-    expo-permissions "^1.1.0"
-    expo-print "^1.0.0"
-    expo-react-native-adapter "^1.1.0"
-    expo-sensors "^1.0.2"
-    expo-sms "^1.0.2"
+    expo-ads-admob "~1.0.0"
+    expo-analytics-segment "~1.0.0"
+    expo-asset "~1.1.0"
+    expo-barcode-scanner "~1.0.0"
+    expo-camera "~1.1.0"
+    expo-constants "~1.0.2"
+    expo-contacts "~1.0.0"
+    expo-core "~1.1.0"
+    expo-face-detector "~1.0.2"
+    expo-file-system "~1.0.2"
+    expo-font "~1.0.0"
+    expo-gl "~1.0.2"
+    expo-local-authentication "~1.0.0"
+    expo-location "~1.0.0"
+    expo-media-library "~1.0.0"
+    expo-payments-stripe "~1.0.0"
+    expo-permissions "~1.1.0"
+    expo-print "~1.0.0"
+    expo-react-native-adapter "~1.1.1"
+    expo-sensors "~1.0.2"
+    expo-sms "~1.0.2"
     fbemitter "^2.1.1"
     invariant "^2.2.2"
     lodash.map "^4.6.0"
@@ -3509,6 +3516,7 @@ expo@^30.0.0:
     react-native-screens "^1.0.0-alpha.5"
     react-native-svg "6.2.2"
     uuid-js "^0.7.5"
+    whatwg-fetch "^2.0.4"
 
 express@^4.13.4:
   version "4.16.3"
@@ -9030,7 +9038,7 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
   dependencies:
     iconv-lite "0.4.23"
 
-whatwg-fetch@>=0.10.0:
+whatwg-fetch@>=0.10.0, whatwg-fetch@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
 
