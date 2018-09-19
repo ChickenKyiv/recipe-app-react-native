@@ -70,101 +70,107 @@ class GroceryListSettings extends Component {
 export default GroceryListSettings;
 
 
-class GroceryListItemSettings extends Component {
+// class GroceryListItemSettings extends Component {
 
-  constructor(props) {
-    super(props);
+//   constructor(props) {
+//     super(props);
 
-    this.codeRef = this.updateRef.bind(this, 'code');
-  }
+//     this.codeRef = this.updateRef.bind(this, 'code');
+//   }
 
-  onChangeText(text) {
-    ['code']
-      .map((name) => ({ name, ref: this[name] }))
-      .filter(({ ref }) => ref && ref.isFocused())
-      .forEach(({ name, ref }) => {
-        this.setState({ [name]: text });
-      });
-  }
+//   onChangeText(text) {
+//     ['code']
+//       .map((name) => ({ name, ref: this[name] }))
+//       .filter(({ ref }) => ref && ref.isFocused())
+//       .forEach(({ name, ref }) => {
+//         this.setState({ [name]: text });
+//       });
+//   }
 
-  updateRef(name, ref) {
-    this[name] = ref;
-  }
+//   updateRef(name, ref) {
+//     this[name] = ref;
+//   }
 
-  render () {
-    return (
-      <View style={styles.itemSettingsContainer}>
-        <Text style={styles.itemSettingsTitle}>{title}</Text>
-        <View style={styles.itemSettingsContent}>
+//   render () {
+//     return (
+//       <View style={styles.itemSettingsContainer}>
+//         <Text style={styles.itemSettingsTitle}>{title}</Text>
+//         <View style={styles.itemSettingsContent}>
 
-          <View style={styles.itemSettingsRow}>
-            <Text style={styles.itemSettingsLabel}>Servings</Text>
-            <View style={{
-              // backgroundColor : 'green',
-            }}>
-              {/*<Dropdown*/}
-              {/*value={'1'}*/}
-              {/*// label='Favorite Fruit'*/}
-              {/*data={data}fDropdown*/}
-              {/*/>*/}
-              <Dropdown
-                ref={this.codeRef}
-                value={'123'}
-                onChangeText={this.onChangeText}
-                label='Color code'
-                data={data}
-                propsExtractor={({ props }, index) => props}
-              />
-            </View>
-          </View>
+//           <View style={styles.itemSettingsRow}>
+//             <Text style={styles.itemSettingsLabel}>Servings</Text>
+//             <View style={{
+//               // backgroundColor : 'green',
+//             }}>
 
-          <View style={styles.itemSettingsRow}>
-            <Text style={styles.itemSettingsLabel}>Disable</Text>
+//               <Dropdown
+//                 value={'1'}
+//                 label='Favorite Fruit'
+//                 data={data}fDropdown
+//               />
 
-            <Switch/>
-          </View>
+//               <Dropdown
+//                 ref={this.codeRef}
+//                 value={'123'}
+//                 onChangeText={this.onChangeText}
+//                 label='Color code'
+//                 data={data}
+//                 propsExtractor={({ props }, index) => props}
+//               />
+//             </View>
+//           </View>
+
+//           <View style={styles.itemSettingsRow}>
+//             <Text style={styles.itemSettingsLabel}>Disable</Text>
+
+//             <Switch/>
+//           </View>
 
 
-        </View>
-      </View>
-    );
-  }
-}
-
-// const GroceryListItemSettings = ({title, recipeId, groceryId, data }) => (
-//   <View style={styles.itemSettingsContainer}>
-//     <Text style={styles.itemSettingsTitle}>{title}</Text>
-//     <View style={styles.itemSettingsContent}>
-//
-//       <View style={styles.itemSettingsRow}>
-//         <Text style={styles.itemSettingsLabel}>Servings</Text>
-//         <View style={{
-//           // backgroundColor : 'green',
-//         }}>
-//           {/*<Dropdown*/}
-//             {/*value={'1'}*/}
-//             {/*// label='Favorite Fruit'*/}
-//             {/*data={data}*/}
-//           {/*/>*/}
-//           <Dropdown
-//             // ref={this.codeRef}
-//             value={'123'}
-//             onChangeText={this.onChangeText}
-//             label='Color code'
-//             data={data}
-//             propsExtractor={({ props }, index) => props}
-//           />
 //         </View>
 //       </View>
-//
-//       <View style={styles.itemSettingsRow}>
-//         <Text style={styles.itemSettingsLabel}>Disable</Text>
-//
-//         <Switch/>
-//       </View>
-//
-//
-//     </View>
-//   </View>
-// );
+//     );
+//   }
+// }
 
+const GroceryListItemSettings = ({title, recipeId, groceryId, data }) => (
+  <View style={styles.itemSettingsContainer}>
+    <Text style={styles.itemSettingsTitle}>{title}</Text>
+    <View style={styles.itemSettingsContent}>
+
+      <View style={styles.itemSettingsRow}>
+        <Text style={styles.itemSettingsLabel}>Servings</Text>
+        <View style={{
+          flex : 0.2,
+          paddingBottom : 15
+        }}>
+          {/*<Dropdown*/}
+            {/*value={'1'}*/}
+            {/*// label='Favorite Fruit'*/}
+            {/*data={data}*/}
+          {/*/>*/}
+          <Dropdown
+            // ref={this.codeRef}
+            value={'1'}
+            onChangeText={this.onChangeText}
+            // label='Favorite Fruit'
+            data={data}
+            propsExtractor={({ props }, index) => props}
+          />
+        </View>
+      </View>
+
+      <View style={styles.itemSettingsRow}>
+        <Text style={styles.itemSettingsLabel}>Disable</Text>
+
+        <Switch style={{
+          // color : 'red',
+          // backgroundColor : 'yellow',
+          // width : 50
+        }}/>
+      </View>
+
+
+    </View>
+  </View>
+);
