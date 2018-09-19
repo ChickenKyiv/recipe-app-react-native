@@ -1539,7 +1539,7 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-jest@^22.4.1, babel-jest@^22.4.4:
+babel-jest@^22.4.2, babel-jest@^22.4.4:
   version "22.4.4"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-22.4.4.tgz#977259240420e227444ebe49e226a61e49ea659d"
   dependencies:
@@ -3255,19 +3255,19 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-ads-admob@^1.0.0:
+expo-ads-admob@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-ads-admob/-/expo-ads-admob-1.0.0.tgz#4debb00d90a584d06124a6de7fd8e89fef5385f5"
   dependencies:
     prop-types "^15.6.2"
 
-expo-analytics-segment@^1.0.0:
+expo-analytics-segment@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-analytics-segment/-/expo-analytics-segment-1.0.0.tgz#d5d46cf276c94f69e39a5251e8b424d64f661a37"
   dependencies:
     expo-core "~1.1.0"
 
-expo-asset@^1.1.0:
+expo-asset@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-1.1.0.tgz#f5b182fe553076ae6a0ab504f195f13287d65081"
   dependencies:
@@ -3279,7 +3279,7 @@ expo-barcode-scanner-interface@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-barcode-scanner-interface/-/expo-barcode-scanner-interface-1.0.0.tgz#3b61227c8ee131871ab6d6a199384caad8f90510"
 
-expo-barcode-scanner@^1.0.0:
+expo-barcode-scanner@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-barcode-scanner/-/expo-barcode-scanner-1.0.0.tgz#fa59a67b34b2179c565246ac61c4de5e0d20b050"
   dependencies:
@@ -3293,7 +3293,7 @@ expo-camera-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-camera@^1.1.0:
+expo-camera@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-1.1.0.tgz#a4895cabace9ed600b268e634b1efe746e24e047"
   dependencies:
@@ -3312,21 +3312,21 @@ expo-constants-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-constants@^1.0.2:
+expo-constants@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-1.0.2.tgz#2b9f96bb26d5d20df60368a66c5a5f237c9659f3"
   dependencies:
     expo-constants-interface "~1.0.2"
     expo-core "~1.1.0"
 
-expo-contacts@^1.0.0:
+expo-contacts@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-contacts/-/expo-contacts-1.0.0.tgz#07510f3d62c8ffa90c8161884b872f816e1ab42a"
   dependencies:
     expo-core "~1.1.0"
     uuid-js "^0.7.5"
 
-expo-core@^1.1.0, expo-core@~1.1.0:
+expo-core@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-core/-/expo-core-1.1.0.tgz#c6c81282cc33b7de3913e5c3e46462b8e8f733ec"
 
@@ -3336,7 +3336,7 @@ expo-face-detector-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-face-detector@^1.0.2:
+expo-face-detector@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-face-detector/-/expo-face-detector-1.0.2.tgz#8133e422d98f515e058c82f1eff3433d040aab35"
   dependencies:
@@ -3350,7 +3350,7 @@ expo-file-system-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-file-system@^1.0.2:
+expo-file-system@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-1.0.2.tgz#5e101296edd21b2dc9afa9ff1fe981ea3905ccb8"
   dependencies:
@@ -3364,7 +3364,7 @@ expo-font-interface@~1.0.0:
   dependencies:
     expo-core "~1.1.0"
 
-expo-font@^1.0.0:
+expo-font@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-1.0.0.tgz#853a78820a857c1979d26a6414589b1bfe275a31"
   dependencies:
@@ -3378,7 +3378,7 @@ expo-gl-cpp@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-gl@^1.0.2:
+expo-gl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-1.0.2.tgz#730811ab43b25ec68a8ebee036292589238342e0"
   dependencies:
@@ -3387,27 +3387,33 @@ expo-gl@^1.0.2:
     expo-file-system-interface "~1.0.2"
     expo-gl-cpp "~1.0.2"
 
-expo-local-authentication@^1.0.0:
+expo-image-loader-interface@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/expo-image-loader-interface/-/expo-image-loader-interface-1.0.0.tgz#77249526b81acc85116bfc36200d1accefb3f6d2"
+  dependencies:
+    expo-core "~1.1.0"
+
+expo-local-authentication@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-local-authentication/-/expo-local-authentication-1.0.0.tgz#c21d2cbe2d25bab5cdd05e6d38a41f9ba0615eeb"
   dependencies:
     expo-core "~1.1.0"
     invariant "^2.2.4"
 
-expo-location@^1.0.0:
+expo-location@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-location/-/expo-location-1.0.0.tgz#98dab207fab7a8834abd1916df4f8534b4eccb02"
   dependencies:
     invariant "^2.2.4"
 
-expo-media-library@^1.0.0:
+expo-media-library@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-1.0.0.tgz#af2b0c5b624e28541856e524ec876a014cd055c7"
   dependencies:
     expo-core "~1.1.0"
     expo-permissions-interface "~1.1.0"
 
-expo-payments-stripe@^1.0.0:
+expo-payments-stripe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-payments-stripe/-/expo-payments-stripe-1.0.0.tgz#3ef1f00154c6a065cdcf25dc8c43ad8c59ad9cf0"
   dependencies:
@@ -3419,25 +3425,26 @@ expo-permissions-interface@~1.1.0:
   dependencies:
     expo-core "~1.1.0"
 
-expo-permissions@^1.1.0:
+expo-permissions@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-1.1.0.tgz#45dbeea680c1065d13aa451a41ab3af46fd34e67"
   dependencies:
     expo-core "~1.1.0"
     expo-permissions-interface "~1.1.0"
 
-expo-print@^1.0.0:
+expo-print@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/expo-print/-/expo-print-1.0.0.tgz#dacc797614c5062d003dc29cc4da67d661ed3f9f"
   dependencies:
     babel-preset-expo "^4.0.0"
     expo-core "~1.1.0"
 
-expo-react-native-adapter@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/expo-react-native-adapter/-/expo-react-native-adapter-1.1.0.tgz#7efb07f0f2e58257bd12ba49245342f483234eff"
+expo-react-native-adapter@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/expo-react-native-adapter/-/expo-react-native-adapter-1.1.1.tgz#a8a4bcd8d17323924aac991ac727e9bcab9da6e1"
   dependencies:
     expo-core "~1.1.0"
+    expo-image-loader-interface "~1.0.0"
     expo-permissions-interface "~1.1.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
@@ -3449,7 +3456,7 @@ expo-sensors-interface@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-sensors@^1.0.2:
+expo-sensors@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-sensors/-/expo-sensors-1.0.2.tgz#bdfe10ab0b25c64cc1c40bdf6cd3f0899f07c860"
   dependencies:
@@ -3457,41 +3464,41 @@ expo-sensors@^1.0.2:
     expo-sensors-interface "~1.0.2"
     invariant "^2.2.4"
 
-expo-sms@^1.0.2:
+expo-sms@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-sms/-/expo-sms-1.0.2.tgz#9856b4fbd2c6c62de14a5a3213c1d67aad46d72d"
   dependencies:
     expo-core "~1.1.0"
     expo-permissions-interface "~1.1.0"
 
-expo@^30.0.0:
-  version "30.0.0"
-  resolved "https://registry.yarnpkg.com/expo/-/expo-30.0.0.tgz#a54d556cff10119807ed4f435dedca2b2e795791"
+expo@^30.0.1:
+  version "30.0.1"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-30.0.1.tgz#2fae2d20b2f71d90e9533030d3671f70d4a18814"
   dependencies:
     "@expo/vector-icons" "^6.3.1"
     "@expo/websql" "^1.0.1"
     babel-preset-expo "^4.0.0"
-    expo-ads-admob "^1.0.0"
-    expo-analytics-segment "^1.0.0"
-    expo-asset "^1.1.0"
-    expo-barcode-scanner "^1.0.0"
-    expo-camera "^1.1.0"
-    expo-constants "^1.0.2"
-    expo-contacts "^1.0.0"
-    expo-core "^1.1.0"
-    expo-face-detector "^1.0.2"
-    expo-file-system "^1.0.2"
-    expo-font "^1.0.0"
-    expo-gl "^1.0.2"
-    expo-local-authentication "^1.0.0"
-    expo-location "^1.0.0"
-    expo-media-library "^1.0.0"
-    expo-payments-stripe "^1.0.0"
-    expo-permissions "^1.1.0"
-    expo-print "^1.0.0"
-    expo-react-native-adapter "^1.1.0"
-    expo-sensors "^1.0.2"
-    expo-sms "^1.0.2"
+    expo-ads-admob "~1.0.0"
+    expo-analytics-segment "~1.0.0"
+    expo-asset "~1.1.0"
+    expo-barcode-scanner "~1.0.0"
+    expo-camera "~1.1.0"
+    expo-constants "~1.0.2"
+    expo-contacts "~1.0.0"
+    expo-core "~1.1.0"
+    expo-face-detector "~1.0.2"
+    expo-file-system "~1.0.2"
+    expo-font "~1.0.0"
+    expo-gl "~1.0.2"
+    expo-local-authentication "~1.0.0"
+    expo-location "~1.0.0"
+    expo-media-library "~1.0.0"
+    expo-payments-stripe "~1.0.0"
+    expo-permissions "~1.1.0"
+    expo-print "~1.0.0"
+    expo-react-native-adapter "~1.1.1"
+    expo-sensors "~1.0.2"
+    expo-sms "~1.0.2"
     fbemitter "^2.1.1"
     invariant "^2.2.2"
     lodash.map "^4.6.0"
@@ -3509,6 +3516,7 @@ expo@^30.0.0:
     react-native-screens "^1.0.0-alpha.5"
     react-native-svg "6.2.2"
     uuid-js "^0.7.5"
+    whatwg-fetch "^2.0.4"
 
 express@^4.13.4:
   version "4.16.3"
@@ -4893,11 +4901,11 @@ jest-environment-node@^23.4.0:
     jest-mock "^23.2.0"
     jest-util "^23.4.0"
 
-jest-expo@~27.0.0:
-  version "27.0.1"
-  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-27.0.1.tgz#8b1a97a8be167528b4b6cdfa5f459348f0b66026"
+jest-expo@~30.0.0:
+  version "30.0.0"
+  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-30.0.0.tgz#31a540034846d99c65830ae292d4e8bff53c321e"
   dependencies:
-    babel-jest "^22.4.1"
+    babel-jest "^22.4.2"
     jest "^22.4.2"
     json5 "^0.5.1"
     react-test-renderer "^16.3.1"
@@ -5622,17 +5630,13 @@ lodash.zipobject@^4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/lodash.zipobject/-/lodash.zipobject-4.1.3.tgz#b399f5aba8ff62a746f6979bf20b214f964dbef8"
 
-lodash@4.x, lodash@^4.0.0, lodash@^4.13.1, lodash@^4.14.1, lodash@^4.16.6, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
+lodash@4.x, lodash@^4.0.0, lodash@^4.13.1, lodash@^4.14.1, lodash@^4.16.5, lodash@^4.16.6, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
 lodash@^3.10.0:
   version "3.10.1"
   resolved "http://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-
-lodash@^4.16.5:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
 logfmt@^1.2.0:
   version "1.2.1"
@@ -7337,9 +7341,9 @@ react-dom@16.5.0:
     prop-types "^15.6.2"
     schedule "^0.3.0"
 
-react-is@^16.5.0:
-  version "16.5.0"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.5.0.tgz#2ec7c192709698591efe13722fab3ef56144ba55"
+react-is@^16.5.1:
+  version "16.5.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.5.1.tgz#c6e8734fd548a22e1cef4fd0833afbeb433b85ee"
 
 react-lazy-load@^3.0.12:
   version "3.0.13"
@@ -7438,7 +7442,11 @@ react-native-safe-module@^1.1.0:
   dependencies:
     dedent "^0.6.0"
 
-react-native-screens@^1.0.0-alpha.5, react-native-screens@^1.0.0-alpha.8:
+react-native-screens@^1.0.0-alpha.10:
+  version "1.0.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-1.0.0-alpha.10.tgz#3e22e57592ad8050a8ebcc789d2d3da4dd5e94d9"
+
+react-native-screens@^1.0.0-alpha.5:
   version "1.0.0-alpha.9"
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-1.0.0-alpha.9.tgz#0d036192e248d454cb7601b659e7630fd0e37e9d"
 
@@ -7568,11 +7576,11 @@ react-navigation-drawer@0.5.0:
   dependencies:
     react-native-drawer-layout-polyfill "^1.3.2"
 
-react-navigation-stack@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-0.4.0.tgz#6e1f0800c086ceedfb38005ae20d50c4877396ef"
+react-navigation-stack@0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-0.5.1.tgz#acc3c84c7b5209c7d89380d7f4576f17624f683c"
   dependencies:
-    react-native-screens "^1.0.0-alpha.8"
+    react-native-screens "^1.0.0-alpha.10"
 
 react-navigation-tabs@0.7.0:
   version "0.7.0"
@@ -7583,9 +7591,9 @@ react-navigation-tabs@0.7.0:
     react-lifecycles-compat "^3.0.4"
     react-native-tab-view "^1.0.0"
 
-react-navigation@^2.14.0:
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-2.14.0.tgz#ed685ec883270b25a3fc317db666c34c7bae564e"
+react-navigation@^2.14.2:
+  version "2.14.2"
+  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-2.14.2.tgz#e3c933b15efdc6bcb1e9b014aeacfb2a08997d5b"
   dependencies:
     clamp "^1.0.1"
     create-react-context "0.2.2"
@@ -7596,7 +7604,7 @@ react-navigation@^2.14.0:
     react-native-safe-area-view "^0.10.0"
     react-navigation-deprecated-tab-navigator "1.3.0"
     react-navigation-drawer "0.5.0"
-    react-navigation-stack "0.4.0"
+    react-navigation-stack "0.5.1"
     react-navigation-tabs "0.7.0"
 
 react-proxy@^1.1.7:
@@ -7650,14 +7658,14 @@ react-slick@~0.23.1:
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
 
-react-test-renderer@^16.3.1, react-test-renderer@^16.5.0:
-  version "16.5.0"
-  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.5.0.tgz#1aeca0edc4f27f63265dcaed80ba82e11e762f56"
+react-test-renderer@^16.3.1, react-test-renderer@^16.5.1:
+  version "16.5.1"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.5.1.tgz#17f020fb0cf884cadebb5240d9d9c23452f18299"
   dependencies:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    react-is "^16.5.0"
-    schedule "^0.3.0"
+    react-is "^16.5.1"
+    schedule "^0.4.0"
 
 react-timer-mixin@^0.13.2:
   version "0.13.4"
@@ -7693,7 +7701,7 @@ react-vis@^1.10.4:
     prop-types "^15.5.8"
     react-motion "^0.5.2"
 
-react@16.5.0, react@^16.0.0:
+react@16.5.0:
   version "16.5.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.5.0.tgz#f2c1e754bf9751a549d9c6d9aca41905beb56575"
   dependencies:
@@ -7701,6 +7709,15 @@ react@16.5.0, react@^16.0.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     schedule "^0.3.0"
+
+react@16.5.1, react@^16.0.0:
+  version "16.5.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.5.1.tgz#8cb8e9f8cdcb4bde41c9a138bfbf907e66132372"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    schedule "^0.4.0"
 
 read-chunk@^2.0.0:
   version "2.1.0"
@@ -8102,6 +8119,12 @@ sax@~1.1.1:
 schedule@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/schedule/-/schedule-0.3.0.tgz#1be2ab2fc2e768536269ce7326efb478d6c045e8"
+  dependencies:
+    object-assign "^4.1.1"
+
+schedule@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/schedule/-/schedule-0.4.0.tgz#fa20cfd0bfbf91c47d02272fd7096780d3170bbb"
   dependencies:
     object-assign "^4.1.1"
 
@@ -9034,7 +9057,7 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
   dependencies:
     iconv-lite "0.4.23"
 
-whatwg-fetch@>=0.10.0:
+whatwg-fetch@>=0.10.0, whatwg-fetch@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
 
