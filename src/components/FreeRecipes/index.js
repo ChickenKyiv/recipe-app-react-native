@@ -6,6 +6,8 @@ import { List, ListItem } from 'react-native-elements';
 import directions from '../../assets/data/directions';
 import styles from './styles';
 
+// var recipe = gf.getRecipe();
+
 const Directions = () => {
   return (
     <View style={styles.container}>
