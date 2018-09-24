@@ -12,7 +12,7 @@ import GroceryListSettings from './components/GroceryListSettings';
 export default class App extends React.Component {
   render() {
     return (
-      <GroceryListSettings/>
+      <GroceryListDepartment/>
     );
   }
 }

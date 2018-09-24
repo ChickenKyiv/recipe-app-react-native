@@ -18,7 +18,7 @@ class DirectionsNew extends Component {
   componentDidMount () {
     getAllDirectionsList();
   }
-
+  
   render () {
     return (
       <View>
