@@ -6531,10 +6531,10 @@ react-native-checkbox@^2.0.0:
   dependencies:
     prop-types "^15.5.10"
 
-react-native-collapsible@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-collapsible/-/react-native-collapsible-1.0.0.tgz#ae84363639cade8f48599c86a4d9168101cc584f"
-  integrity sha512-dEMMPWgv/rpUC8NTqutoNXo8O98QlUmfPdyPDTgNDJ21YCKARV/uYsZrS5DIP5cBT0QPnUzTZ/WfSK5V2KQhSA==
+react-native-collapsible@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-collapsible/-/react-native-collapsible-1.0.1.tgz#f00b5e6d6836d5fcc2b1c04089bd094711b1c17a"
+  integrity sha512-hl2VRgIv4K9tZ7U1bdBwOCeNQHTx9WjryBBqXP8S2E6Kj36VS/bpq154h2n1vaRoYtsm6crRe/A6tgg8XBY50w==
   dependencies:
     prop-types "^15.6.2"
 
