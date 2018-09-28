@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-rallycoding": "^3.2.0",
     "jest": "^23.6.0",
     "jest-expo": "~30.0.0",
+    "prettier": "^1.14.3",
     "react-native-scripts": "2.0.1",
     "react-test-renderer": "^16.5.2"
   },
@@ -14,7 +17,8 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src"
   },
   "jest": {
     "preset": "jest-expo"
@@ -31,11 +35,11 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
     "react-native-animatable": "^1.3.0",
     "react-native-checkbox": "^2.0.0",
-    "react-native-collapsible": "^0.13.0",
+    "react-native-collapsible": "^1.0.0",
     "react-native-elements": "^0.19.1",
     "react-native-material-dropdown": "^0.11.1",
     "react-native-status-bar-height": "^2.1.0",
     "react-native-typography": "^1.3.0",
-    "react-navigation": "^2.16.0"
+    "react-navigation": "^2.17.0"
   }
 }
