@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-rallycoding": "^3.2.0",
     "jest": "^23.6.0",
     "jest-expo": "~30.0.0",
+    "prettier": "^1.14.3",
     "react-native-scripts": "2.0.1",
     "react-test-renderer": "^16.5.2"
   },
