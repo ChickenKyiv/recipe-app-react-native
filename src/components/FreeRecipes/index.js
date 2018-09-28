@@ -8,7 +8,7 @@ import styles from './styles';
 
 // var recipe = gf.getRecipe();
 
-const Directions = () => {
+const FreeRecipes = () => {
   return (
     <View style={styles.container}>
       <View style={styles.row}>
@@ -31,4 +31,4 @@ const Directions = () => {
   )
 };
 
-export default Directions;
+export default FreeRecipes;

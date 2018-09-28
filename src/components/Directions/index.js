@@ -50,5 +50,5 @@ const Directions = () => {
   )
 };
 
-// export default Directions;
-export default DirectionsNew;
+export default Directions;
+// export default DirectionsNew;

@@ -24,6 +24,8 @@
     "@groceristar/groceristar-fetch": "^1.1.25",
     "expo": "^30.0.1",
     "lodash": "^4.17.11",
+    "native-base": "^2.8.0",
+    "path": "^0.12.7",
     "raven-js": "^3.27.0",
     "react": "16.5.2",
     "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
