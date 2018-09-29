@@ -4,6 +4,18 @@ import Login from '../components/Login';
 import HomeScreen from '../components/Home';
 import Directions from '../components/Directions';
 import Signup from '../components/Signup';
+import FreeRecipes from '../components/FreeRecipes';
+import GroceryList from '../components/GroceryList';
+import GroceryListDepartment from '../components/GroceryListDepartment';
+import GroceryListSettings from '../components/GroceryListSettings';
+
+const ExampleRoutes = {
+  Directions,
+  FreeRecipes,
+  GroceryList,
+  GroceryListDepartment,
+  GroceryListSettings
+};
 
 const NavigationApp = createStackNavigator({
   Login: {
@@ -41,10 +53,8 @@ const NavigationApp = createStackNavigator({
       header: null
     }
   },
-  DirectionsScreen: {
-    screen: Directions,
-    navigationOptions: { gesturesEnabled: false, header: null }
-  },
+  ...ExampleRoutes
 });
 
 export default NavigationApp;
+

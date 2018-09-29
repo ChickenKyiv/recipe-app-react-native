@@ -1,15 +1,24 @@
 import React, {Component} from 'react';
 import {View, FlatList, Text} from "react-native";
-import {List, ListItem, CheckBox} from "react-native-elements";
-import directions from "../../assets/data/directions";
+import {List, 
+  // ListItem, 
+  // CheckBox, 
+  Icon} from "react-native-elements";
+import { Container, Header, Content, ListItem, CheckBox, Body } from 'native-base';
 
+import directions from "../../assets/data/directions";
 import styles from './styles';
 
 class GroceryListDepartment extends Component {
 
   state = {
-    checked : []
+    checked : [],
+    directions : directions[0].directions
   };
+
+  componentDidMount () {
+    console.log(this.state.directions);
+  }
 
   checkItem (itemID) {
     const { checked } = this.state;
@@ -34,30 +43,19 @@ class GroceryListDepartment extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.row}>
-          <List containerStyle={styles.listContainerStyle}>
+      
+          <Content>
             {
-              directions[0].directions.map((item,index) => (
-                <View style={styles.checkBoxContainer}
-                      key={index}>
-                  <CheckBox
-                    title={item}
-                    label={item}
-                    value={index}
-                    checkedIcon='dot-circle-o'
-                    uncheckedIcon='circle-o'
-                    checked={this.state.checked.includes(index)}
-                    onPress={() => this.checkItem(index)}
-                    textStyle={{
-                      fontWeight : '300'
-                    }}
-                    style={{
-                      backgroundColor : 'green'
-                    }}
-                  />
-                </View>
+              this.state.directions.map((item,index) => (
+                <ListItem>
+                  <CheckBox checked={this.state.checked.includes(index)} />
+                  <Body>
+                    <Text>{item}</Text>
+                  </Body>
+                </ListItem>
               ))
             }
-          </List>
+          </Content>
 
         </View>
       </View>
