@@ -1,10 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {getStatusBarHeight} from "react-native-status-bar-height";
 import { List, ListItem } from 'react-native-elements';
 
+import { getAllDirectionsList } from '../../config/HelperFunctions';
 import directions from '../../assets/data/directions';
 import styles from './styles';
+
+class DirectionsNew extends Component {
+  // static getDerivedStateFromProps (props, state) {
+  //   getAllDirectionsList();
+  //   return null;
+  // }
+
+  state = {};
+
+  componentDidMount () {
+    getAllDirectionsList();
+  }
+  
+  render () {
+    return (
+      <View>
+
+      </View>
+    );
+  }
+} 
 
 const Directions = () => {
   return (
@@ -29,3 +51,4 @@ const Directions = () => {
 };
 
 export default Directions;
+// export default DirectionsNew;

@@ -6,7 +6,9 @@ import { List, ListItem } from 'react-native-elements';
 import directions from '../../assets/data/directions';
 import styles from './styles';
 
-const Directions = () => {
+// var recipe = gf.getRecipe();
+
+const FreeRecipes = () => {
   return (
     <View style={styles.container}>
       <View style={styles.row}>
@@ -29,4 +31,4 @@ const Directions = () => {
   )
 };
 
-export default Directions;
+export default FreeRecipes;

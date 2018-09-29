@@ -28,6 +28,8 @@
     "@groceristar/groceristar-fetch": "^1.1.25",
     "expo": "^30.0.1",
     "lodash": "^4.17.11",
+    "native-base": "^2.8.0",
+    "path": "^0.12.7",
     "raven-js": "^3.27.0",
     "react": "16.5.2",
     "react-native": "~0.57.1",
