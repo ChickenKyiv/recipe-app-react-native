@@ -7,13 +7,17 @@ import FreeRecipes from '../components/FreeRecipes';
 import GroceryList from '../components/GroceryList';
 import GroceryListDepartment from '../components/GroceryListDepartment';
 import GroceryListSettings from '../components/GroceryListSettings';
+import Signup from '../components/Signup';
+import Login from '../components/Login';
 
 const ExampleRoutes = {
   Directions,
   FreeRecipes,
   GroceryList,
   GroceryListDepartment,
-  GroceryListSettings
+  GroceryListSettings,
+  Signup,
+  Login
 };
 
 const NavigationApp = createStackNavigator({
