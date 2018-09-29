@@ -8,9 +8,7 @@ export default class AuthComponent extends React.Component {
         super();
         this.state = {
             username: '',
-            password: '',
-            load: 0,
-            remember: false
+            password: ''
         }
     }
     async componentDidMount() {
@@ -23,14 +21,9 @@ export default class AuthComponent extends React.Component {
         BackHandler.removeEventListener('hadrwareBackPress', this.handleBackHandler);
 
     }
-    onChangeUser = (value) => {
+    onChange = (value) => {
         this.setState({
-            username: value
-        })
-    }
-    onChangePassword = (value) => {
-        this.setState({
-            password: value
+            [event.target.name]: event.target.value
         })
     }
     render() {
@@ -41,10 +34,10 @@ export default class AuthComponent extends React.Component {
                 <ImageBackground source={require('../../assets/images/Background.jpg')} style={styles.background}>
                     <View style={styles.container}>
                         <View style={styles.textBoxInput}>
-                            <TextInput underlineColorAndroid='rgba(0,0,0,0)' placeholderTextColor='#000' style={styles.loginInput} placeholder='Username' onChangeText={this.onChangeUser} />
+                            <TextInput underlineColorAndroid='rgba(0,0,0,0)' placeholderTextColor='#000' style={styles.loginInput} placeholder='Username' name="username" onChangeText={this.onChange} />
                         </View>
                         <View style={styles.textBoxInput}>
-                            <TextInput underlineColorAndroid='rgba(0,0,0,0)' placeholderTextColor='#000' style={styles.loginInput} placeholder='Password' onChangeText={this.onChangePassword} onSubmitEditing={this.onSubmit} secureTextEntry={true} />
+                            <TextInput underlineColorAndroid='rgba(0,0,0,0)' placeholderTextColor='#000' style={styles.loginInput} placeholder='Password' name="password" onChangeText={this.onChange} onSubmitEditing={this.onSubmit} secureTextEntry={true} />
                         </View>
                         <View>
                             <TouchableOpacity style={styles.login} onPress={this.onSubmit}><Text style={styles.loginText}>Log in</Text></TouchableOpacity>

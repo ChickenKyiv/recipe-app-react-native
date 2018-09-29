@@ -1,6 +1,6 @@
 import React from 'react';
-import { Text, View, Image, TouchableOpacity, TextInput, BackHandler, ImageBackground, CheckBox } from 'react-native';
-// import { Bubbles, DoubleBounce, Bars, Pulse } from 'react-native-loader';
+import { Text, View, Image, TouchableOpacity, TextInput,ImageBackground} from 'react-native';
+import { Bubbles } from 'react-native-loader';
 import styles from './styles';
 
 export default class Signup extends React.Component {
@@ -8,9 +8,7 @@ export default class Signup extends React.Component {
         super();
         this.state = {
             username: '',
-            password: '',
-            load: 0,
-            remember: false
+            password: ''
         }
     }
     onChange = (value) => {
