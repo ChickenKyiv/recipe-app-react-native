@@ -35,7 +35,7 @@
     "react-native": "~0.57.2",
     "react-native-animatable": "^1.3.0",
     "react-native-checkbox": "^2.0.0",
-    "react-native-collapsible": "^1.0.1",
+    "react-native-collapsible": "^1.1.0",
     "react-native-elements": "^0.19.1",
     "react-native-loader": "^1.2.1",
     "react-native-material-dropdown": "^0.11.1",
