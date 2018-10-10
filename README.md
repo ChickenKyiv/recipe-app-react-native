@@ -26,9 +26,9 @@ Some details was structured and published on Medium:
 - In-app purchases
 - Enable Recurly is a next priority thing
 
-## Recipe App React Native
+## Recipe App React Native Live
 
-[Expo Link] (http://google.com/)
+[Snack Expo Link](https://snack.expo.io/@sofianed/recipe-app)
 
 
 ## App Overview
