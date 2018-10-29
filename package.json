@@ -27,7 +27,7 @@
     "@expo/vector-icons": "^8.0.0",
     "@groceristar/groceristar-fetch": "^1.1.27",
     "expo": "^27.1.0",
-    "expo-cli": "^2.2.3",
+    "expo-cli": "^2.2.4",
     "lodash": "^4.17.11",
     "native-base": "^2.8.1",
     "path": "^0.12.7",
