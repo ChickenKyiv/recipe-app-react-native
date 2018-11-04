@@ -3627,10 +3627,10 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-cli@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.2.3.tgz#6ffb5acfbd1695d734d4bcdd94763273418c2eb0"
-  integrity sha512-njFmDsyZ4xi9jkcUhWg/ZRbqaf8iBXXSEcFlSr7SOPdaLMzYesZTrDKhJCs88/6UWDTqa0A+sxiaCBhlsSTc9A==
+expo-cli@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.2.5.tgz#eebcbe71456d15d530364998da59a9d4d52ad99b"
+  integrity sha512-jXVtf9oFFJwkrYv4TQopWo0ungtMvWuwrdhOO6TP+ngz9fHiKzEfi/jqHH/6DIzgzu+MKay6TKHGwyOPzhYfRA==
   dependencies:
     "@expo/bunyan" "3.0.2"
     "@expo/dev-tools" "^0.1.6"
@@ -3663,7 +3663,7 @@ expo-cli@^2.2.3:
     untildify "^3.0.2"
     validator "^10.4.0"
     wordwrap "^1.0.0"
-    xdl "^51.4.3"
+    xdl "^51.4.5"
   optionalDependencies:
     "@expo/traveling-fastlane-darwin" "1.5.0"
     "@expo/traveling-fastlane-linux" "1.5.0"
@@ -9890,10 +9890,10 @@ xcode@^0.9.1:
     simple-plist "^0.2.1"
     uuid "3.0.1"
 
-xdl@^51.4.3:
-  version "51.4.3"
-  resolved "https://registry.yarnpkg.com/xdl/-/xdl-51.4.3.tgz#dd10b93a50d7731452d1651f35a3579710745d4e"
-  integrity sha512-gX4+EDZDAvvVxsuYLLlweTxa3f1t3ZKqt6ZoH6bFQVK7JHN0BoTs5qIr2drSBkayGRvRQqHmj46lQU6KZWwI7Q==
+xdl@^51.4.5:
+  version "51.4.5"
+  resolved "https://registry.yarnpkg.com/xdl/-/xdl-51.4.5.tgz#4d1ecd4c672902dfa44ca718bc2cff8940922f13"
+  integrity sha512-KLfE1i0hunTfCfxx4AxWVtJz6N5mCgB1ZvEh/6fgXplTlIoFzMoxn3yRncocKbpA9k7qy6iwDsXgIIZSZmEYjw==
   dependencies:
     "@expo/bunyan" "3.0.2"
     "@expo/json-file" "^8.0.1"
