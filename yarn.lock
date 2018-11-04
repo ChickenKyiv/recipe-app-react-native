@@ -829,14 +829,13 @@
     pouchdb-collections "^1.0.1"
     tiny-queue "^0.2.1"
 
-"@groceristar/groceristar-fetch@^1.1.28":
-  version "1.1.28"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.28.tgz#0125f701b803492785543c7878ed5134f7444ebf"
-  integrity sha512-gXYzKFcYksnb8o66oaQcLZ2j7pVtis2aD8biBF/NuOlnhPmhcwLJo/ksh5KW09I5ITVNJ0hH0gg3nUij2alBnA==
+"@groceristar/groceristar-fetch@^1.1.29":
+  version "1.1.29"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.29.tgz#01de73a19396a8fdf9c24230368ed367c9a69995"
+  integrity sha512-QglZ45g5tvnzH3L2oOkUMOGGyjLGbMVv5e2d1iWIOMC0e5y4beO09OS9IkWbP0PBGBTErt2ITYblQzQ+n0rWag==
   dependencies:
     fs "0.0.1-security"
     lodash "^4.17.10"
-    underscore "^1.9.1"
     uuid "3.3.2"
 
 "@segment/loosely-validate-event@^1.1.2":
@@ -9526,11 +9525,6 @@ ultron@~1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
   integrity sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==
-
-underscore@^1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
-  integrity sha512-5/4etnCkd9c8gwgowi5/om/mYO5ajCaOgdzj/oW+0eQV9WxKBDZw5+ycmKmeaTXjInS/W0BzpGLo2xR2aBwZdg==
 
 union-value@^1.0.0:
   version "1.0.0"
