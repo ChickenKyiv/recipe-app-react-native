@@ -648,10 +648,10 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/dev-tools@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.1.7.tgz#3d962fd44c7a0e4111e976d704f723714b9f8936"
-  integrity sha512-TfkiaWFFt19msnlsW0/tPuhC8Z7PLAZPSv1Nso7K66jSoiQdcXna0HgtynIy/BsyjhCtoBVC3g02h0RafAPSzw==
+"@expo/dev-tools@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.0.tgz#e7a824e0025a019cffb7f45faf52160cb89f460d"
+  integrity sha512-7khz6Q/NZkW+ZAfqwGCpyV+HvIVM2k+eYXHsqPLjBimD4Fwq6qWm3VUy5lhxNbVest0EFdBTf/9AKh3Dkg6gqg==
   dependencies:
     body-parser "1.18.2"
     express "4.16.3"
@@ -662,10 +662,10 @@
     lodash "4.17.5"
     subscriptions-transport-ws "0.9.8"
 
-"@expo/json-file@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@expo/json-file/-/json-file-8.0.1.tgz#6109f0c1e18c0f84aa5e052406c861cd7ae347a8"
-  integrity sha512-ojXbGO0cr0d3jGsPahy4egrcv+VVDL4KxeauGoGDeEotGBqbnLgjNvsxB8GJRJmKekAhPyGlVUBxpUPU+wVyGQ==
+"@expo/json-file@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@expo/json-file/-/json-file-8.1.0.tgz#adcbadb20b9ac4e945a354b879b5b307c19df91f"
+  integrity sha512-L2Z3Sod/TDeHNIsixMwiRKgdISJpjA81SknFArFUiD3E0eVYhgPEx++kU23KRD2f8FqwTI6tWJSM5msyxAEldg==
   dependencies:
     "@babel/code-frame" "^7.0.0-beta.44"
     json5 "^1.0.1"
@@ -757,19 +757,19 @@
     request "^2.81.0"
     uuid "^3.0.0"
 
-"@expo/osascript@^1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@expo/osascript/-/osascript-1.8.2.tgz#4e7c9da0d947495df6cf170b9b51c635edd7529a"
-  integrity sha512-OLqqHBiSWMnxxUqU+YgBfM7bFTy/00ARNUAB3UQHa/kWPW54VkT7rJDN1I24es1PZt4D45jTGnApCvXVo/tsnQ==
+"@expo/osascript@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@expo/osascript/-/osascript-1.9.0.tgz#88bdcd7eb3acad2f41c00847c1f7d62e87b6e93c"
+  integrity sha512-dekz3NmMSySVDfQrfiJL/Z94U9t2anoiWQomDvu/FmO6k3e+c1yqwK93RPGUBYxj+JkqZk6PB6y+Jy+FD/TXGg==
   dependencies:
     "@expo/spawn-async" "^1.2.8"
     babel-runtime "^6.23.0"
     exec-async "^2.2.0"
 
-"@expo/schemer@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@expo/schemer/-/schemer-1.1.1.tgz#3c9d007a55ca30b369c80a6fde774e315343f717"
-  integrity sha512-Up4vlsQA7wRjLThtw43+tGcWcFmwIyXi2zP4N6jiBQRGYW5kJOnVHhzmd+ZcNsiDf+UY+jb2lm9MAsO95XHOuQ==
+"@expo/schemer@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@expo/schemer/-/schemer-1.2.0.tgz#e4a18563a07808de913a7eb16921f42eaaa7cef9"
+  integrity sha512-070UdznKevndIGHQq1FAEkt1CtdFlwu2ZaJMHMoo3aEfZUPjK9BloPKbkYhhPKhHX7+x2OfOVpB6qkT4CLJfCA==
   dependencies:
     ajv "^5.2.2"
     babel-polyfill "^6.23.0"
@@ -3626,14 +3626,14 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-cli@^2.2.6:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.2.6.tgz#7a8930191e39f288d9f24cce42e18bfa565d9629"
-  integrity sha512-d8H2umijwPg7vOU5zmcdvrdCb1IxAJq6ognjJmttkEO04q7/In7QuxxgaiyqZCJiPW2D1Zv8omNkzS3CoGEqHw==
+expo-cli@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.3.0.tgz#53520bedd9d98d3608935fea664546fa3e45f344"
+  integrity sha512-kq7E6lnbELXFH9RAoJpsH6vHf2Z1Y16DgnPCbxFNQnjgash8JjZ0mqsZQduW/TWMwkWGORPzAnxUS2jL5zVzGw==
   dependencies:
     "@expo/bunyan" "3.0.2"
-    "@expo/dev-tools" "^0.1.7"
-    "@expo/json-file" "^8.0.1"
+    "@expo/dev-tools" "^0.2.0"
+    "@expo/json-file" "^8.1.0"
     "@expo/simple-spinner" "^1.0.2"
     "@expo/spawn-async" "^1.3.0"
     babel-runtime "^6.9.2"
@@ -3662,7 +3662,7 @@ expo-cli@^2.2.6:
     untildify "^3.0.2"
     validator "^10.4.0"
     wordwrap "^1.0.0"
-    xdl "^51.4.8"
+    xdl "^51.5.0"
   optionalDependencies:
     "@expo/traveling-fastlane-darwin" "1.5.0"
     "@expo/traveling-fastlane-linux" "1.5.0"
@@ -9884,16 +9884,16 @@ xcode@^0.9.1:
     simple-plist "^0.2.1"
     uuid "3.0.1"
 
-xdl@^51.4.8:
-  version "51.4.9"
-  resolved "https://registry.yarnpkg.com/xdl/-/xdl-51.4.9.tgz#ae4148c0c2ba2d6a9f2e7ec4e358acce2c97bc3f"
-  integrity sha512-yK1TULRLVOfiDBTEqbiB59jGIX0DvBhyYF34qQIPC3Be0R1YW1tSaY+86Z5/R30Kav/gRTeJtLyKh9idlcrlwg==
+xdl@^51.5.0:
+  version "51.5.0"
+  resolved "https://registry.yarnpkg.com/xdl/-/xdl-51.5.0.tgz#89d5bc4f91e407d08c1b1d40c11f4b4e42141f69"
+  integrity sha512-7gHl2rWs107IUjy517Ub5q4DgEUITv4M0JLTH/q8fLqy8XDdVegNsrJLLR8C2tV7IpPRkvcvfADbRXhYK68kpw==
   dependencies:
     "@expo/bunyan" "3.0.2"
-    "@expo/json-file" "^8.0.1"
+    "@expo/json-file" "^8.1.0"
     "@expo/ngrok" "2.4.2"
-    "@expo/osascript" "^1.8.2"
-    "@expo/schemer" "^1.1.1"
+    "@expo/osascript" "^1.9.0"
+    "@expo/schemer" "^1.2.0"
     "@expo/spawn-async" "^1.2.8"
     analytics-node "^2.1.0"
     axios v0.19.0-beta.1
