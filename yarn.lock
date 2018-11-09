@@ -828,10 +828,10 @@
     pouchdb-collections "^1.0.1"
     tiny-queue "^0.2.1"
 
-"@groceristar/groceristar-fetch@^1.1.29":
-  version "1.1.29"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.29.tgz#01de73a19396a8fdf9c24230368ed367c9a69995"
-  integrity sha512-QglZ45g5tvnzH3L2oOkUMOGGyjLGbMVv5e2d1iWIOMC0e5y4beO09OS9IkWbP0PBGBTErt2ITYblQzQ+n0rWag==
+"@groceristar/groceristar-fetch@^1.1.30":
+  version "1.1.30"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.30.tgz#63f44fb1f9737a7b17da857af3eb00ce6f64286e"
+  integrity sha512-ov7O2XnbHoPu6yUbpjdgpMyq17NSpQfK/pqp4wJRH7ukyJVLouDRrieQ33U3vWgcF+UAzMblg4wlu5FCp64mTg==
   dependencies:
     fs "0.0.1-security"
     lodash "^4.17.10"
