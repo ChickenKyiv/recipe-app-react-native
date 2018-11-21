@@ -648,10 +648,10 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/dev-tools@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.5.tgz#b9a241335937eace7ac23bc2cb347f4bb96afacb"
-  integrity sha512-lzJn4P3bLxq8vcdR3cNG80eMB+UlqXYv21+1gGWRVuvsDSEJIwp0x5CDRVxdXJ8RZpJjdgbS1aD9hXRcjc165Q==
+"@expo/dev-tools@^0.2.13":
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.13.tgz#a35556e5c2fa8610dbfd3e2ed216de7b7f59c555"
+  integrity sha512-3OyFQMpOMyMDvANAaztkHOvFxbe8wN77ooy0L7wz8xuSmRq06jaav7IAVXNodHjasWyDC4stdthr9Kxb9I2+QA==
   dependencies:
     express "4.16.4"
     freeport-async "1.1.1"
@@ -765,10 +765,10 @@
     babel-runtime "^6.23.0"
     exec-async "^2.2.0"
 
-"@expo/schemer@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@expo/schemer/-/schemer-1.2.0.tgz#e4a18563a07808de913a7eb16921f42eaaa7cef9"
-  integrity sha512-070UdznKevndIGHQq1FAEkt1CtdFlwu2ZaJMHMoo3aEfZUPjK9BloPKbkYhhPKhHX7+x2OfOVpB6qkT4CLJfCA==
+"@expo/schemer@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@expo/schemer/-/schemer-1.2.1.tgz#aec8acc3123dfb85f0430182250ad4cbd28ce128"
+  integrity sha512-nsmdI4/2LFlKufPJIKZ9JAi0dfFNX8tsWV9RWkxduBiyieO8T0aDwk9vjNgx/pH2sElPXgcZ3xQrnhfi5zbbog==
   dependencies:
     ajv "^5.2.2"
     babel-polyfill "^6.23.0"
@@ -791,15 +791,15 @@
   dependencies:
     cross-spawn "^5.1.0"
 
-"@expo/traveling-fastlane-darwin@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@expo/traveling-fastlane-darwin/-/traveling-fastlane-darwin-1.5.0.tgz#5cb4a0afde891a92b50edb916a6b9003735ff357"
-  integrity sha512-WnYQmen3jWFaKkwXASSmf2JgXHbLPKc7lx+984K1wI+kTLi1y4BBp/Vs1iPaeuJHz8Hu6KamzxMhC4ko82N9PQ==
+"@expo/traveling-fastlane-darwin@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@expo/traveling-fastlane-darwin/-/traveling-fastlane-darwin-1.6.0.tgz#c441e8ff718b88fe13da4bbb4e377c53505b0648"
+  integrity sha512-pVFiJfCgG0sw6s3G83FGu2Bk1C6jOSXfsPrEYXDLggNBmWYHESK2dMPxg+XvIe8fPFKBPATj3CIF96IpOyix0w==
 
-"@expo/traveling-fastlane-linux@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@expo/traveling-fastlane-linux/-/traveling-fastlane-linux-1.5.0.tgz#74a461361d854a2d3b6408f1e3e0a99974143d89"
-  integrity sha512-5TDlY7NFa59GSdlmyKZDj75blZdaxM4Ax2CkE0euppuWcjSr0Kgv/51rMMk6Ri9IaE9zY1U7pfGQhbcJGE7pEg==
+"@expo/traveling-fastlane-linux@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@expo/traveling-fastlane-linux/-/traveling-fastlane-linux-1.6.0.tgz#82604cdd67704075c7985d80693c1e498561deec"
+  integrity sha512-Qw0vUVIjE7rX4AtupUDYH56O5qLOhh4o3/dqRNsFd2QS/DAxQTCug61o3KE/zKJ51kxbqpkKdFiqDpG8BhFtLw==
 
 "@expo/vector-icons@^6.3.1":
   version "6.3.1"
@@ -3626,13 +3626,13 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-cli@^2.3.5:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.3.5.tgz#84f3d83aa079e7c2e3f7f280b19bebd7c2c8e30a"
-  integrity sha512-ad01QpJhzusB5W1YccIgHIt+qvulfvSc0lFjOUZdAZmrHIC83Q+pL/9dEhUXUy3wz1x4HYS1ueb2DFBCbaq9yQ==
+expo-cli@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.4.0.tgz#98041e79d495d3a12eb778dc4d9d66861bcbee54"
+  integrity sha512-Z4EWLDnn1LBcDdg3Gwq5VAc/2IeAhnoqNdgzxYMYAxYTPxbuvxEvu7UtnYkVsy6AylHdPWVCIv7uDX0D/Qr98A==
   dependencies:
     "@expo/bunyan" "3.0.2"
-    "@expo/dev-tools" "^0.2.5"
+    "@expo/dev-tools" "^0.2.13"
     "@expo/json-file" "^8.1.0"
     "@expo/simple-spinner" "^1.0.2"
     "@expo/spawn-async" "^1.3.0"
@@ -3648,11 +3648,9 @@ expo-cli@^2.3.5:
     indent-string "^3.1.0"
     inquirer "^5.0.1"
     klaw-sync "^6.0.0"
-    latest-version "^4.0.0"
     lodash "^4.17.4"
     match-require "^2.1.0"
     ora "^1.3.0"
-    p-timeout "^2.0.1"
     progress "^2.0.0"
     qrcode-terminal "^0.11.0"
     semver "^5.0.1"
@@ -3662,10 +3660,10 @@ expo-cli@^2.3.5:
     untildify "^3.0.2"
     validator "^10.4.0"
     wordwrap "^1.0.0"
-    xdl "^51.5.5"
+    xdl "^51.6.0"
   optionalDependencies:
-    "@expo/traveling-fastlane-darwin" "1.5.0"
-    "@expo/traveling-fastlane-linux" "1.5.0"
+    "@expo/traveling-fastlane-darwin" "1.6.0"
+    "@expo/traveling-fastlane-linux" "1.6.0"
 
 expo@^27.1.0:
   version "27.1.1"
@@ -4489,10 +4487,10 @@ hashids@^1.1.4:
   resolved "https://registry.yarnpkg.com/hashids/-/hashids-1.2.2.tgz#28635c7f2f7360ba463686078eee837479e8eafb"
   integrity sha512-dEHCG2LraR6PNvSGxosZHIRgxF5sNLOIBFEHbj8lfP9WWmu/PWPMzsip1drdVSOFi51N2pU7gZavrgn7sbGFuw==
 
-hoek@4.x.x:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
-  integrity sha512-QLg82fGkfnJ/4iy1xZ81/9SIJiq1NGFUMGs6ParyjBZr6jW2Ufj/snDqTHixNlHdPNwN2RLVD0Pi3igeK9+JfA==
+hoek@6.x.x:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/hoek/-/hoek-6.0.3.tgz#7884360426d927865a0a1251fc9c59313af5b798"
+  integrity sha512-TU6RyZ/XaQCTWRLrdqZZtZqwxUVr6PDMfi6MlWNURZ7A6czanQqX4pFE1mdOUQR9FdPCsZ0UzL8jI/izZ+eBSQ==
 
 hoist-non-react-statics@^1.0.5:
   version "1.2.0"
@@ -5049,10 +5047,12 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
 
-isemail@2.x.x:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/isemail/-/isemail-2.2.1.tgz#0353d3d9a62951080c262c2aa0a42b8ea8e9e2a6"
-  integrity sha1-A1PT2aYpUQgMJiwqoKQrjqjp4qY=
+isemail@3.x.x:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/isemail/-/isemail-3.2.0.tgz#59310a021931a9fb06bbb51e155ce0b3f236832c"
+  integrity sha512-zKqkK+O+dGqevc93KNsbZ/TqTUFd46MwWjYOoMrjIMZ51eU7DtQG3Wmd9SQQT7i7RVnuTPEiYEWHU3MSbxC1Tg==
+  dependencies:
+    punycode "2.x.x"
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -5180,11 +5180,6 @@ isurl@^1.0.0-alpha5:
   dependencies:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
-
-items@2.x.x:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/items/-/items-2.1.1.tgz#8bd16d9c83b19529de5aea321acaada78364a198"
-  integrity sha1-i9FtnIOxlSneWuoyGsqtp4NkoZg=
 
 iterall@1.2.2, iterall@^1.1.3, iterall@^1.2.1:
   version "1.2.2"
@@ -5829,15 +5824,14 @@ jest@^23.6.0:
     import-local "^1.0.0"
     jest-cli "^23.6.0"
 
-joi@^10.0.2:
-  version "10.6.0"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-10.6.0.tgz#52587f02d52b8b75cdb0c74f0b164a191a0e1fc2"
-  integrity sha512-hBF3LcqyAid+9X/pwg+eXjD2QBZI5eXnBFJYaAkH4SK3mp9QSRiiQnDYlmlz5pccMvnLcJRS4whhDOTCkmsAdQ==
+joi@^14.0.4:
+  version "14.0.6"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-14.0.6.tgz#8c72314af6dba13ca48028a4f0af992ddc5a7472"
+  integrity sha512-mKXPSNYMG3taVBZemQj3pPOlMZGrnnu14JKAC6AHg6jJVX35L7oDk89ss1sHj+laDSEh3mD2PmeheI5k6Aw8nQ==
   dependencies:
-    hoek "4.x.x"
-    isemail "2.x.x"
-    items "2.x.x"
-    topo "2.x.x"
+    hoek "6.x.x"
+    isemail "3.x.x"
+    topo "3.x.x"
 
 join-component@^1.1.0:
   version "1.1.0"
@@ -5963,7 +5957,7 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-jsonfile@^2.1.0, jsonfile@^2.3.1:
+jsonfile@^2.1.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-2.4.0.tgz#3736a2b428b87bbda0cc83b53fa3d633a35c2ae8"
   integrity sha1-NzaitCi4e72gzIO1P6PWM6NcKug=
@@ -7592,15 +7586,15 @@ punycode@1.3.2:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
   integrity sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=
 
+punycode@2.x.x, punycode@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
+  integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+
 punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
   integrity sha1-wNWmOycYgArY4esPpSachN1BhF4=
-
-punycode@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
-  integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qrcode-terminal@^0.11.0:
   version "0.11.0"
@@ -9336,12 +9330,12 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
-topo@2.x.x:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/topo/-/topo-2.0.2.tgz#cd5615752539057c0dc0491a621c3bc6fbe1d182"
-  integrity sha1-zVYVdSU5BXwNwEkaYhw7xvvh0YI=
+topo@3.x.x:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/topo/-/topo-3.0.3.tgz#d5a67fb2e69307ebeeb08402ec2a2a6f5f7ad95c"
+  integrity sha512-IgpPtvD4kjrJ7CRA3ov2FhWQADwv+Tdqbsf1ZnPUSAtCJ9e1Z44MmoSGDXGk4IppoZA7jd/QRkNddlLJWlUZsQ==
   dependencies:
-    hoek "4.x.x"
+    hoek "6.x.x"
 
 tough-cookie@>=2.3.3, tough-cookie@^2.3.4, tough-cookie@~2.4.3:
   version "2.4.3"
@@ -9801,16 +9795,16 @@ xcode@^0.9.1:
     simple-plist "^0.2.1"
     uuid "3.0.1"
 
-xdl@^51.5.5:
-  version "51.5.5"
-  resolved "https://registry.yarnpkg.com/xdl/-/xdl-51.5.5.tgz#5c1b7219b42929fdff0dad5f307f9efca875f34b"
-  integrity sha512-56vl9fa5qwANQEu2N25tpkIgZPokAWBxzRsilrYr2h0sxSuzhpLyrLF11VmORKYnTej8RLkl6jMOa/vMjuhtxg==
+xdl@^51.6.0:
+  version "51.6.0"
+  resolved "https://registry.yarnpkg.com/xdl/-/xdl-51.6.0.tgz#e50680fe6e366c421f04f9dc6c508f19996d125a"
+  integrity sha512-qNDsVG/RsW6F1UZTCmeeB4YWdTjW80PEgsvLCNO40UuGmceZNa3YMWYXUKX6YRygb0ZYS74JLPvkRDBNKrmPGw==
   dependencies:
     "@expo/bunyan" "3.0.2"
     "@expo/json-file" "^8.1.0"
     "@expo/ngrok" "2.4.2"
     "@expo/osascript" "^1.9.0"
-    "@expo/schemer" "^1.2.0"
+    "@expo/schemer" "^1.2.1"
     "@expo/spawn-async" "^1.2.8"
     analytics-node "^2.1.0"
     axios v0.19.0-beta.1
@@ -9838,8 +9832,8 @@ xdl@^51.5.5:
     indent-string "^3.1.0"
     inquirer "^5.0.1"
     invariant "^2.2.4"
-    joi "^10.0.2"
-    jsonfile "^2.3.1"
+    joi "^14.0.4"
+    latest-version "^4.0.0"
     lodash "^4.14.1"
     md5hex "^1.0.0"
     minimatch "^3.0.4"
@@ -9847,6 +9841,7 @@ xdl@^51.5.5:
     ncp "^2.0.0"
     node-forge "^0.7.4"
     opn "^4.0.2"
+    p-timeout "^2.0.1"
     plist "^2.1.0"
     prop-types "^15.5.10"
     querystring "^0.2.0"
