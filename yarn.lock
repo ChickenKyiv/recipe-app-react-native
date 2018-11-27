@@ -648,10 +648,10 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/dev-tools@^0.2.13":
-  version "0.2.13"
-  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.13.tgz#a35556e5c2fa8610dbfd3e2ed216de7b7f59c555"
-  integrity sha512-3OyFQMpOMyMDvANAaztkHOvFxbe8wN77ooy0L7wz8xuSmRq06jaav7IAVXNodHjasWyDC4stdthr9Kxb9I2+QA==
+"@expo/dev-tools@^0.2.14":
+  version "0.2.14"
+  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.14.tgz#c95bbd40dac3f84abffffdb790a4fb02fb5073dc"
+  integrity sha512-0xpOypVjA7MePk6CR11d5qLEfTh/1FgtJ/6iUJvYXtMFJnmvNp97cNTptUSZszOo5YXQ4kL0gcSQBrmEGMfPpA==
   dependencies:
     express "4.16.4"
     freeport-async "1.1.1"
@@ -3626,13 +3626,13 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-cli@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.4.0.tgz#98041e79d495d3a12eb778dc4d9d66861bcbee54"
-  integrity sha512-Z4EWLDnn1LBcDdg3Gwq5VAc/2IeAhnoqNdgzxYMYAxYTPxbuvxEvu7UtnYkVsy6AylHdPWVCIv7uDX0D/Qr98A==
+expo-cli@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.4.1.tgz#c9a0ace852b243a9cd857fa94d4e049f10bb2daa"
+  integrity sha512-g1+Td1MP7Qtig93FwcEusWmGhvJui9UKAizvJeTCxihKxPxENTuCDXRGrUxAJCYUWsxo3WvoNu9gXxr2CNDAMg==
   dependencies:
     "@expo/bunyan" "3.0.2"
-    "@expo/dev-tools" "^0.2.13"
+    "@expo/dev-tools" "^0.2.14"
     "@expo/json-file" "^8.1.0"
     "@expo/simple-spinner" "^1.0.2"
     "@expo/spawn-async" "^1.3.0"
@@ -3660,7 +3660,7 @@ expo-cli@^2.4.0:
     untildify "^3.0.2"
     validator "^10.4.0"
     wordwrap "^1.0.0"
-    xdl "^51.6.0"
+    xdl "^51.6.1"
   optionalDependencies:
     "@expo/traveling-fastlane-darwin" "1.6.0"
     "@expo/traveling-fastlane-linux" "1.6.0"
@@ -5824,10 +5824,10 @@ jest@^23.6.0:
     import-local "^1.0.0"
     jest-cli "^23.6.0"
 
-joi@^14.0.4:
-  version "14.0.6"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-14.0.6.tgz#8c72314af6dba13ca48028a4f0af992ddc5a7472"
-  integrity sha512-mKXPSNYMG3taVBZemQj3pPOlMZGrnnu14JKAC6AHg6jJVX35L7oDk89ss1sHj+laDSEh3mD2PmeheI5k6Aw8nQ==
+joi@14.0.4:
+  version "14.0.4"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-14.0.4.tgz#f066f79330f6bd6f3dda243be6d2c211f83a5f9b"
+  integrity sha512-KUXRcinDUMMbtlOk7YLGHQvG73dLyf8bmgE+6sBTkdJbZpeGVGAlPXEHLiQBV7KinD/VLD5OA0EUgoTTfbRAJQ==
   dependencies:
     hoek "6.x.x"
     isemail "3.x.x"
@@ -9795,10 +9795,10 @@ xcode@^0.9.1:
     simple-plist "^0.2.1"
     uuid "3.0.1"
 
-xdl@^51.6.0:
-  version "51.6.0"
-  resolved "https://registry.yarnpkg.com/xdl/-/xdl-51.6.0.tgz#e50680fe6e366c421f04f9dc6c508f19996d125a"
-  integrity sha512-qNDsVG/RsW6F1UZTCmeeB4YWdTjW80PEgsvLCNO40UuGmceZNa3YMWYXUKX6YRygb0ZYS74JLPvkRDBNKrmPGw==
+xdl@^51.6.1:
+  version "51.6.1"
+  resolved "https://registry.yarnpkg.com/xdl/-/xdl-51.6.1.tgz#d0ee46a014257ebb41446e733df25ebb0f686227"
+  integrity sha512-ykSz6jmpcm+B9Y4jFxwoGqXFZAMcezDoZd6Xa9BlTBGsY9/rPDZGDMZyvDUKWPKNzE81pvuBOVMiqLLu82kJWg==
   dependencies:
     "@expo/bunyan" "3.0.2"
     "@expo/json-file" "^8.1.0"
@@ -9832,7 +9832,7 @@ xdl@^51.6.0:
     indent-string "^3.1.0"
     inquirer "^5.0.1"
     invariant "^2.2.4"
-    joi "^14.0.4"
+    joi "14.0.4"
     latest-version "^4.0.0"
     lodash "^4.14.1"
     md5hex "^1.0.0"
