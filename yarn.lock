@@ -648,10 +648,10 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/dev-tools@^0.2.29":
-  version "0.2.29"
-  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.29.tgz#ec5840e768aa9d2a8f70e4b469f81424bcbe619a"
-  integrity sha512-vMvEytKvhj+DdHHgH+gXjg6fb/ftmsl++CaawS6CJwN4EOL6yME4icVOQ/NttLZXISqfri7q+svZvPi2U/PHtQ==
+"@expo/dev-tools@^0.2.30":
+  version "0.2.30"
+  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.30.tgz#0fd37d6496e3ef68b9081f1e25e8d4b6dec40324"
+  integrity sha512-urm92jSGQHMt715pzc+gO9Cqe1g7ZhdSitSMHsno9bqAaDNOnlsbLSO9bXQ+6bFvd5WnyL0KDkYlS3PB7B/uwA==
   dependencies:
     express "4.16.4"
     freeport-async "1.1.1"
@@ -2468,13 +2468,6 @@ cacheable-request@^2.1.1:
     normalize-url "2.0.1"
     responselike "1.0.2"
 
-caller-callsite@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/caller-callsite/-/caller-callsite-2.0.0.tgz#847e0fce0a223750a9a027c54b33731ad3154134"
-  integrity sha1-hH4PzgoiN1CpoCfFSzNzGtMVQTQ=
-  dependencies:
-    callsites "^2.0.0"
-
 caller-path@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/caller-path/-/caller-path-0.1.0.tgz#94085ef63581ecd3daa92444a8fe94e82577751f"
@@ -2482,12 +2475,10 @@ caller-path@^0.1.0:
   dependencies:
     callsites "^0.2.0"
 
-caller-path@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/caller-path/-/caller-path-2.0.0.tgz#468f83044e369ab2010fac5f06ceee15bb2cb1f4"
-  integrity sha1-Ro+DBE42mrIBD6xfBs7uFbsssfQ=
-  dependencies:
-    caller-callsite "^2.0.0"
+callsite@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/callsite/-/callsite-1.0.0.tgz#280398e5d664bd74038b6f0905153e6e8af1bc20"
+  integrity sha1-KAOY5dZkvXQDi28JBRU+borxvCA=
 
 callsites@^0.2.0:
   version "0.2.0"
@@ -3033,6 +3024,13 @@ debug@3.1.0, debug@=3.1.0, debug@^3.1.0:
   integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
   dependencies:
     ms "2.0.0"
+
+decache@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/decache/-/decache-4.4.0.tgz#6f6df6b85d7e7c4410a932ffc26489b78e9acd13"
+  integrity sha1-b232uF1+fEQQqTL/wmSJt46azRM=
+  dependencies:
+    callsite "^1.0.0"
 
 decamelize@^1.0.0, decamelize@^1.1.1:
   version "1.2.0"
@@ -3732,13 +3730,13 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-cli@^2.6.11:
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.6.11.tgz#af3b3f553ad8a3b2b102a366172d9b2bfd7f1e9e"
-  integrity sha512-0Ny22xFeqPcIS9WSAJa6sMouzueal7KkXPB6zV6Re2GHzLl8HqtZ4Ri3QUsKciNymiUVixV85FDFFkGh9jXoaw==
+expo-cli@^2.6.12:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.6.12.tgz#fe7f1ea9c65190f0835233835b3968897be03b00"
+  integrity sha512-jiCUkMSoFZcwIKC7qEmh5mJ6PwxO6BTdKokCZU5psuttCdyuyPANzMSguhXnIV6ckuzGAg5Y2+z37hdq9/LKtQ==
   dependencies:
     "@expo/bunyan" "3.0.2"
-    "@expo/dev-tools" "^0.2.29"
+    "@expo/dev-tools" "^0.2.30"
     "@expo/json-file" "8.1.0"
     "@expo/simple-spinner" "1.0.2"
     "@expo/spawn-async" "1.3.0"
@@ -3770,7 +3768,7 @@ expo-cli@^2.6.11:
     untildify "3.0.3"
     validator "10.5.0"
     wordwrap "1.0.0"
-    xdl "^52.0.10"
+    xdl "^52.0.11"
   optionalDependencies:
     "@expo/traveling-fastlane-darwin" "1.6.2"
     "@expo/traveling-fastlane-linux" "1.6.2"
@@ -4785,14 +4783,6 @@ immediate@^3.2.2:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/immediate/-/immediate-3.2.3.tgz#d140fa8f614659bd6541233097ddaac25cdd991c"
   integrity sha1-0UD6j2FGWb1lQSMwl92qwlzdmRw=
-
-import-fresh@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-2.0.0.tgz#d81355c15612d386c61f9ddd3922d4304822a546"
-  integrity sha1-2BNVwVYS04bGH53dOSLUMEgipUY=
-  dependencies:
-    caller-path "^2.0.0"
-    resolve-from "^3.0.0"
 
 import-local@^1.0.0:
   version "1.0.0"
@@ -10261,10 +10251,10 @@ xcode@^0.9.1:
     simple-plist "^0.2.1"
     uuid "3.0.1"
 
-xdl@^52.0.10:
-  version "52.0.10"
-  resolved "https://registry.yarnpkg.com/xdl/-/xdl-52.0.10.tgz#dbc71ab272a14e2aca0752b2a020e9913631af58"
-  integrity sha512-7cVILT/moUadju2/gCo5/3JzNPTlYtmJi1QkAw76qc0Vlls/mdyj2yFn2wW/fG7wshrQ2z11+5cH5FXjeOz+/A==
+xdl@^52.0.11:
+  version "52.0.11"
+  resolved "https://registry.yarnpkg.com/xdl/-/xdl-52.0.11.tgz#c3cdeba2edc08c83e3c4466ebdeb1e6a79860915"
+  integrity sha512-4yCzqwh79pU6riTELgMpX1y/i6Z2CtkYaigXmuN088HYT77hSf09PbFcAy/s/GSIURyI6IidAdAIgXBaOdSRtQ==
   dependencies:
     "@expo/bunyan" "3.0.2"
     "@expo/json-file" "8.1.0"
@@ -10277,6 +10267,7 @@ xdl@^52.0.10:
     chalk "2.4.1"
     command-exists "1.2.7"
     concat-stream "1.6.2"
+    decache "4.4.0"
     delay-async "1.1.0"
     es6-error "4.1.1"
     escape-string-regexp "1.0.5"
@@ -10292,7 +10283,6 @@ xdl@^52.0.10:
     hashids "1.1.4"
     home-dir "1.0.0"
     idx "2.4.0"
-    import-fresh "2.0.0"
     indent-string "3.2.0"
     inquirer "5.2.0"
     invariant "2.2.4"
