@@ -648,10 +648,10 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/dev-tools@^0.2.30":
-  version "0.2.30"
-  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.30.tgz#0fd37d6496e3ef68b9081f1e25e8d4b6dec40324"
-  integrity sha512-urm92jSGQHMt715pzc+gO9Cqe1g7ZhdSitSMHsno9bqAaDNOnlsbLSO9bXQ+6bFvd5WnyL0KDkYlS3PB7B/uwA==
+"@expo/dev-tools@^0.2.32":
+  version "0.2.32"
+  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.2.32.tgz#c053b72160a7bd572526d4b8ecce878e60a4fab1"
+  integrity sha512-JEHut0/pQkFv6cb5rjuLQbRmreI1BTQhzb5EJRgEYsz+AFPKNLTB37BMb4RnUL6CqVDWl0CLUcwISa4SdhKlWw==
   dependencies:
     express "4.16.4"
     freeport-async "1.1.1"
@@ -3730,13 +3730,13 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-expo-cli@^2.6.12:
-  version "2.6.12"
-  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.6.12.tgz#fe7f1ea9c65190f0835233835b3968897be03b00"
-  integrity sha512-jiCUkMSoFZcwIKC7qEmh5mJ6PwxO6BTdKokCZU5psuttCdyuyPANzMSguhXnIV6ckuzGAg5Y2+z37hdq9/LKtQ==
+expo-cli@^2.6.14:
+  version "2.6.14"
+  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.6.14.tgz#d9b8f5bf7df0f877d2473713baaef43e4d5645e3"
+  integrity sha512-mN4lkuRVCNGi6ux+hBhi84pVBfCrhZmQklmzXrOtV6wLUVK0YiIBUTnD0b5yZTFwTqgYjuJ1yrRKuiV9x63MOQ==
   dependencies:
     "@expo/bunyan" "3.0.2"
-    "@expo/dev-tools" "^0.2.30"
+    "@expo/dev-tools" "^0.2.32"
     "@expo/json-file" "8.1.0"
     "@expo/simple-spinner" "1.0.2"
     "@expo/spawn-async" "1.3.0"
@@ -3768,7 +3768,7 @@ expo-cli@^2.6.12:
     untildify "3.0.3"
     validator "10.5.0"
     wordwrap "1.0.0"
-    xdl "^52.0.11"
+    xdl "^52.0.13"
   optionalDependencies:
     "@expo/traveling-fastlane-darwin" "1.6.2"
     "@expo/traveling-fastlane-linux" "1.6.2"
@@ -10251,10 +10251,10 @@ xcode@^0.9.1:
     simple-plist "^0.2.1"
     uuid "3.0.1"
 
-xdl@^52.0.11:
-  version "52.0.11"
-  resolved "https://registry.yarnpkg.com/xdl/-/xdl-52.0.11.tgz#c3cdeba2edc08c83e3c4466ebdeb1e6a79860915"
-  integrity sha512-4yCzqwh79pU6riTELgMpX1y/i6Z2CtkYaigXmuN088HYT77hSf09PbFcAy/s/GSIURyI6IidAdAIgXBaOdSRtQ==
+xdl@^52.0.13:
+  version "52.0.13"
+  resolved "https://registry.yarnpkg.com/xdl/-/xdl-52.0.13.tgz#ec6182d31ac40fa8e9775670c62e916b1c991e67"
+  integrity sha512-TWVfatbd7flwcMJF55PCNuzSNY3lnYk4SlxNS4y+XR2PrJTGXwNeuMoOsN0GK+tm+wOBLSpSyxgjOm2AMayC4w==
   dependencies:
     "@expo/bunyan" "3.0.2"
     "@expo/json-file" "8.1.0"
