@@ -29,7 +29,7 @@
     "expo": "^27.1.0",
     "expo-cli": "^2.6.12",
     "lodash": "^4.17.11",
-    "native-base": "^2.8.1",
+    "native-base": "^2.8.2",
     "path": "^0.12.7",
     "raven-js": "^3.27.0",
     "react": "16.3.1",
