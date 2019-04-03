@@ -999,14 +999,25 @@
     pouchdb-collections "^1.0.1"
     tiny-queue "^0.2.1"
 
-"@groceristar/groceristar-fetch@^1.1.33":
-  version "1.1.33"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.33.tgz#290dc7abe64852b084da1e874df70f4394f8ee76"
-  integrity sha512-zm84ixMWB86TEGpDGP72VeP0SrK8b8wI9TASWAqVHUxPnlKGfnvdsRA/ETdtzxX9G3/ZaYFHozbS8mlTcp7T1w==
+"@groceristar/groceristar-fetch@^2.1.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.6.tgz#72aea097a687a4e8b82570de079bc47e94a2bb91"
+  integrity sha512-8whdQl8AhrPuHf0NrQzWFVe6xGp0w3NGCPgHYsW4FNJRrUDTXjOh+H6H42+GCWvavjYNIk4GU9i6hqwyF0oT2Q==
   dependencies:
-    fs "0.0.1-security"
+    "@groceristar/sd-wrapper" "^2.0.8"
+    dayjs "^1.8.0"
+    fs "0.0.2"
     lodash "^4.17.10"
+    underscore "^1.9.1"
     uuid "3.3.2"
+
+"@groceristar/sd-wrapper@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-2.0.8.tgz#e8a9457039acb98922f29503304c5bde155ab8f7"
+  integrity sha512-yxCupKan22mTTMRQed5hPGPVSUxvq6TkktMGyVXAPfJmQbnS5R3RcQkL2tzdbpRT4m7+Lu+mxQz8ABYsBPLwmQ==
+  dependencies:
+    path "^0.12.7"
+    uuid "^3.3.2"
 
 "@react-navigation/core@3.0.2":
   version "3.0.2"
@@ -3089,6 +3100,11 @@ data-urls@^1.0.0:
     whatwg-mimetype "^2.1.0"
     whatwg-url "^7.0.0"
 
+dayjs@^1.8.0:
+  version "1.8.12"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.12.tgz#f9610fb9b115aa2fe2a07e742c130df418cee76a"
+  integrity sha512-7keChCzzjU68sYJpk7kEI1Q9qbJyscyiW0STwEhqDFt+2js9pA/BSzmYE4PRxcMMoUMxNeY0TEMZHqV/JBR4OA==
+
 debug@2, debug@2.6.9, debug@^2.1.1, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.2, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -4322,10 +4338,10 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-fs@0.0.1-security:
-  version "0.0.1-security"
-  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
-  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+fs@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.2.tgz#e1f244ef3933c1b2a64bd4799136060d0f5914f8"
+  integrity sha1-4fJE7zkzwbKmS9R5kTYGDQ9ZFPg=
 
 fsevents@^1.2.3:
   version "1.2.4"
@@ -9988,6 +10004,11 @@ ultron@~1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
   integrity sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==
+
+underscore@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
+  integrity sha512-5/4etnCkd9c8gwgowi5/om/mYO5ajCaOgdzj/oW+0eQV9WxKBDZw5+ycmKmeaTXjInS/W0BzpGLo2xR2aBwZdg==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
