@@ -24,7 +24,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@expo/vector-icons": "^8.0.0",
+    "@expo/vector-icons": "^10.0.6",
     "@groceristar/groceristar-fetch": "^1.1.33",
     "expo": "^27.1.0",
     "expo-cli": "^2.6.14",
