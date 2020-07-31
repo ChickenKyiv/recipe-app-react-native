@@ -26,7 +26,7 @@
   "dependencies": {
     "@expo/vector-icons": "^8.0.0",
     "@groceristar/groceristar-fetch": "^1.1.33",
-    "expo": "^27.1.0",
+    "expo": "^38.0.9",
     "expo-cli": "^2.6.14",
     "lodash": "^4.17.11",
     "native-base": "^2.8.2",
